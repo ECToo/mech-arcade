@@ -10,6 +10,8 @@ I have been looking at the 2 most likely candidates as the game engine base. Eit
 
 == The Plan ==
 
+Only considering stage 1 at this stage.
+
 ===Step 1 - Proof of concept - 3 months===
 Get a mech model into current maps, a basic a proof of concept. 
 Reskin the GUI to make it more mech like, including radar
