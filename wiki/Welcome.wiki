@@ -5,11 +5,32 @@ Welcome to the MechArcade wiki. I have done some preliminary work on the project
 
 = Game Engine Base =
 
-I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://bloodfrontier.com or Sauerbraten http://sauerbraten.org 
+I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://bloodfrontier.com or Sauerbraten http://sauerbraten.org, though I am leaning toward Blood. 
 
 Another option may be the content free version of Sauerbraten that is being put together.
 
-At this point in time it doesn't matter too much as we are not planning to edit the game code in the first instance. 
+At this point in time it doesn't matter too much as we are not planning to edit the game code in the first phase. 
+
+= The Plan =
+
+==Step 1 - Proof of concept - 3 months==
+
+Get a mech model into current maps, a basic a proof of concept. 
+Reskin the GUI to make it more mech like, including radar
+Set up the 'tool chains' for code, models, maps and graphics
+
+*Note 1:* Main difference(s) between a MA style mech the current player model: 
+
+the torso rotation and effects of gait 
+the damage fx and gimping 
+targeting fx (nullsig, chaff) 
+invisibility 
+weapon handling 
+heat management 
+Note 2: The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without modding the source
+
+Start with only a few people, a lead, a modder, map maker, a C coder (if possible, I would be hoping not to mod the engine ) and someone network/server savvy. These would form the basis of the 'teams' as more join
+
 
 = Models =
 
