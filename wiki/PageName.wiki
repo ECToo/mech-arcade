@@ -4,13 +4,14 @@
 
 Welcome to the MechArcade wiki.
 
-= Details =
+= Game engine base =
 
-I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://sauerbraten.org or Sauerbraten ( http://sauerbraten.org )
+I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://bloodfrontier.com or Sauerbraten http://sauerbraten.org 
 
+Another option may be the content free version of Sauerbraten that is being put together.
 
+At this point in time it doesn't matter too much as we are not planning to eedit the game code. 
 
-Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+= Models =
+
+The single biggest issue is the models. 
