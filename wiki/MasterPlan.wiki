@@ -1,0 +1,91 @@
+#summary First Cut of the master plan.
+#labels Featured,Phase-Requirements,Phase-Implementation
+
+*Mission Objective: Reproduce MA1 online game play using the Cube Engine*
+
+==Step 1 - Proof of concept - 3 months==
+
+Get a mech model into current maps, a basic a proof of concept. 
+Reskin the GUI to make it more mech like, including radar
+Set up the 'tool chains' for code, models, maps and graphics
+
+Note 1: Main difference(s) between a MA style mech the current player model: 
+
+the torso rotation and effects of gait 
+the damage fx and gimping 
+targeting fx (nullsig, chaff) 
+invisibility 
+weapon handling 
+heat management 
+Note 2: The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without modding the source
+
+Start with only a few people, a lead, a modder, map maker, a C coder (if possible, I would be hoping not to mod the engine ) and someone network/server savvy. These would form the basis of the 'teams' as more join
+
+==Step 2 - Get the old Mechassault feel - 6 months==
+
+Add controller support, test and refine, try to make it like  feel MA1
+Develop the mech model into a 'reference mech' 
+
+2 actually, one for chicken walkers and one for human style gait 
+Include all base behaviors (walking, running, falling, exploding etc) 
+work out how to do the weapons 
+The teams would start to form:
+Engine Team 
+Map Making 
+Modelers 
+Network & Testing 
+Step 3 - Base Game - 12 months
+
+We have 2 reference mechs, and a game that works and feels like MA
+
+1. Develop a few more mechs from the reference designs
+2. Work on Weapons - missiles, gauss, PPC,  MG, lasers, hammers 
+3. Develop a few test good test maps (?replicate some classic MA maps) with some destructible terrain 
+4. Make all the above work together as best as possible, without significant mods to engine. What's missing?  Is it a problem with the engine, models or maps. Does it need an engine mod?
+
+ We now have a If OK proceed to 4
+
+==Step 4 - Finishing the Basics - 18 months==
+
+1. Engine Mods - see below
+2. Work on weapons
+3. Work on maps inc destructibles
+4. Add voice coms here ( use Xfire or teamspeak)
+
+Test, refine, test etc
+
+ If OK proceed to 5
+
+==Step 5 - Alpha release - Around 24 months==
+
+Aim at about half a dozen mechs and maps for Alpha.
+
+1. Major test including volume testing
+2. Map development would continue
+3. Mech development would continue 
+
+==Step 6 - Post Alpha== 
+
+1. Fix problem identified in alpha
+2. Ideally map and mech development would be finished by the end of this
+
+==Step 7 -  Beta release 1.0 Beta==
+
+1. Major test including all release maps
+2. No new map or model development 
+
+==Step 8 -  Post release V 1.1==
+
+1. Fix problem identified by users
+2. Community development groups
+
+==Step 9 - Version 1.5== 
+
+1. Add the good community maps, mods, mechs and models.
+2. Fix bugs
+3. Develop functional spec for 2.0
+
+Persisting world aka MA2 conquest 
+Mission bookings/game scheduling 
+VTOL and other vehicles (significant engine changes) 
+
