@@ -1,0 +1,16 @@
+#summary Describes the various tool chains.
+#labels Phase-Implementation,Phase-Design,Phase-Requirements
+This lists the various tool chains TeamXbow are using. If the too chain works and we have beeb able to edit fiiles successfully and use them in cube then 
+
+
+*Maps:* edit in Cube - *OK*
+
+*C Code:*  can edit and compile source with CodeBlox/WinGNU combo - *OK*
+
+*Config files and scripts:* can edit and alter with any text editor - *OK*
+
+*2D Graphics* (HUD etc) - can edit and alter PSP 9.0 - *OK*
+
+*Sound* can edit, convert and alter sound with Audacity - *OK*
+
+*Models* - 'Houstan we have a *PROBLEM*'
