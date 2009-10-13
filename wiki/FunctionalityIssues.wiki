@@ -1,7 +1,9 @@
-#labels Phase-Design
+#summary Functionality - 1st draft
+#labels Phase-Design,Phase-Requirements
+
 == Functionality Issues ==
 
-The engine offers a bit more than MA uses. What's in and what's out.
+The engine offers a bit more than MA uses. So this is what's in and what's out.
 
   *  POV: ?3rd or 1st or both Probably Both 
   *  Jump Jets: will probably need engine and model changes, possibly could be scripted 
