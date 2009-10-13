@@ -3,10 +3,10 @@
 
 == Engine Mods == 
 
-I was hopeful of no engine mods, however there are a number of behavoirs and functions that will probably require engine +/- model changes
+I was hopeful of no engine mods, however there are a number of behavoirs and functions that will probably require engine +/- model changes. 
 
 1. Weapons 
-Some changes would be necessary.  The more you could use original code the better. You need the projectile & the fx,  as you would probably remove actual weapon models given the mech POV. 
+Some changes would be necessary.  The more you could use original code the better. You need the projectile & the fx, not the actual weapon, thus you could probably remove actual weapon models given the mech POV. I had some thoughts about this taht I put up at the mechbay - http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm
 
 2. Health pickup after death
 The goodies may be able to be managed with the current engine
@@ -45,4 +45,3 @@ Cude does basic collision stuff (?more or less than MA1)
 
 1. Layout - can do already
 2. Graphics/Style - can do already
-
