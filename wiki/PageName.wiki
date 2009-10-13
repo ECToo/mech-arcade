@@ -1,0 +1,16 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Welcome to the MechArcade wiki.
+
+= Details =
+
+I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://sauerbraten.org or Sauerbraten ( http://sauerbraten.org )
+
+
+
+Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
