@@ -17,14 +17,14 @@ Set up the 'tool chains' for code, models, maps and graphics
 
 *Note 1:* Main difference(s) between a MA style mech the current player model: 
 
-the torso rotation and effects of gait 
-the damage fx and gimping 
-targeting fx (nullsig, chaff) 
-invisibility 
-weapon handling 
-heat management 
+*the torso rotation and effects of gait 
+*the damage fx and gimping 
+*targeting fx (nullsig, chaff) 
+*invisibility 
+*weapon handling 
+*heat management 
 
-*Note 2:* The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without modding the source
+*Note 2:* The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without significant modding the source
 
 Start with only a few people, a lead, a modder, map maker, a C coder (if possible, I would be hoping not to mod the engine ) and someone network/server savvy. These would form the basis of the 'teams' as more join
 
