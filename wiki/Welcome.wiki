@@ -1,4 +1,5 @@
 #summary Welcome page and a quick state of play
+#labels Featured
 = Introduction =
 
 Welcome to the MechArcade wiki. I have done some preliminary work on the project which you can catch up with here in the TeamXbow [http://mechbay.teamxbow.org/cube_to_mech.htm Mechbay]
