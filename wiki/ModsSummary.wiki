@@ -14,7 +14,7 @@ The goodies may be able to be managed with the current engine
 3. HUD & GUI
 Looks like all can be done without engine changes
 
-4 Mech behaviors
+4. Mech behaviors
 The engine/models would have to  
   *  Actions: Running, Walking, Flying, Gimped,
   *  Heat management
@@ -26,22 +26,21 @@ A joy stock controller mod does exist, have downloaded and will see if I can ada
 6. Physics
 Cude does basic collision stuff (?more or less than MA1)
 
-
 == Major Model Changes == 
 
-1. Damage effects
-2. Ragdoll behavior at death, needs explosion
-3. Torso rotation
-4. Flying
-5. Targeting effects (targeting, tracking, null sig, chaff)
-6. Invisibility
+  *  Damage effects
+  *  Ragdoll behavior at death, needs explosion
+  *  Torso rotation
+  *  Flying
+  *  Targeting effects (targeting, tracking, null sig, chaff)
+  *  Invisibility
 
 == HUD == 
 
-1. Radar - should be able to be turned on
-2. Graphics/Style - can do already
+  *  Radar - should be able to be turned on
+  *  Graphics/Style - can do already
 
 == Menu & GUI == 
 
-1. Layout - can do already
-2. Graphics/Style - can do already
+  *  Layout - can do already
+  *  Graphics/Style - can do already
