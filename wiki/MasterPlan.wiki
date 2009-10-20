@@ -1,17 +1,15 @@
 #summary First Cut of the master plan.
 #labels Featured,Phase-Requirements,Phase-Implementation
-
 *Mission Objective: Reproduce MA1 online game play using the Cube Engine*
-
 ==Step 1 - Proof of concept - 3 months==
-Get a mech model into current maps, a basic a proof of concept. Reskin the GUI to make it more mech like, including radar Set up the 'tool chains' for code, models, maps and graphics. See more on the [Phase1] page
-Note 1: Main difference(s) between a MA style mech the current player model: 
-the torso rotation and effects of gait 
-the damage fx and gimping 
-targeting fx (nullsig, chaff) 
-invisibility 
-weapon handling 
-heat management 
+Get a mech model into current maps, a basic a proof of concept. Reskin the GUI to make it more mech like, including radar Set up the 'tool chains' for code, models, maps and graphics. See more on the [Phase1] page.
+*Note 1:* Main difference(s) between a MA style mech the current player model: 
+  * the torso rotation and effects of gait 
+  * the damage fx and gimping 
+  * targeting fx (nullsig, chaff) 
+  * invisibility 
+  * weapon handling 
+  * heat management (quite complex)
 Note 2: The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without modding the source
 ==Step 2 - Get the old Mechassault feel - 6 months==
 Add controller support, test and refine, try to make it like feel MA1
