@@ -9,8 +9,8 @@
   *  maxhealth - Inceased global health to 500 gives a much  
   *  jumpscale - set to zero this stops them jumping
   *  Note these are for BF, some are differt from SB
-=== 3. Compiling, C and the Engine and ===
-  *  Installed code blocks and MWGNU compiler *OK*
+=== 3. Compiling, C and the Engine ===
+  *  Installed code::blocks and MWGNU compiler *OK*
   *  Recompiled engine with minor changes *OK*
   *  set up a code/project repository *OK*
   *  Status:  Functional
@@ -19,19 +19,17 @@ Todo:
   *  Define needs
   *  find C coder
 === 4. Maps & Map Tool Chain === 
-Basic map editing *OK*
-Status - Functional 
-Todo: 
+  *  Basic map editing *OK*
+  *  Status:  Functional
+Todo next: 
   *  See how to import/export .obj files
   *  Gain proficency in map making
   *  find map makers
 ===  5. Model & Model Tool Chain === 
-Failed to be able to import/export model into Blender
-Unable to install 3DS Max on W7
-Have been able to view and edit older md2 models 
-Status - Non Functional 
-Todo: 
-  *  work with md2 files. Can they do the job?
+Failed to be able to import/export model into Blender, unable to install 3DS Max on W7 though with other tools I have been able to view and edit older md2 models. Status is therefore:  Non Functional. For the moment I will: 
+  *  work with md2 or 3 files. Can they do the job?
+  *  find tools to work with md2 files. 
+  *  think about how to implement heat and health into models. 
   *  think about weapons (most md2) - see here
   *  think about destructible terrain
   *  find modellers!!! (maybe purchase/competion)
