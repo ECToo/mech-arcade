@@ -6,16 +6,11 @@ Welcome to the MechArcade wiki. I have done some preliminary work on the project
 
 == Game Engine Base ==
 
-I have been looking at the 2 most likely candidates as the game engine base. Either Blood Frontier http://bloodfrontier.com or Sauerbraten http://sauerbraten.org, though I am leaning toward Blood. Another option may be the content free version of Sauerbraten that is being put together. At this point in time it doesn't matter too much as we are not planning to edit the game code in the first phase. 
+I have been looking at the 4 most likely cube candidates as the game engine base. Either Blood Frontier http://bloodfrontier.com or Sauerbraten http://sauerbraten.org were the favorites, I did also look at 2 other cousins, the Intensity Engine (= cube + python + javascript = too complex & I couildn't get it to work properly) or Assault Cube, based on cube 1. Another option may be the content free version of Sauerbraten that is being put together. At this point in time it doesn't matter too much as we are not planning to edit the game code much in the first phase. So Blood it is.
 
 == The Plan ==
 
-Only considering stage 1 at this stage.
-
-===Step 1 - Proof of concept - 3 months===
-Get a mech model into current maps, a basic a proof of concept. 
-Reskin the GUI to make it more mech like, including radar
-Set up the 'tool chains' for code, models, maps and graphics
+Only considering the first phase at this stage - read [Phase1] for progress. In short I want to get a mech model into the  current maps, as a basic a proof of concept. I am reskining the GUI to make it more mech like, and I have to get the 'tool chains' for code, models, maps and graphics working. The single biggest issue so far has been the models - you can read about my misadventures here in the[http://mechbay.teamxbow.org/cube_to_mech.htm Mechbay]
 
 *Note 1:* Main difference(s) between a MA style mech the current player model: 
 
@@ -24,11 +19,8 @@ Set up the 'tool chains' for code, models, maps and graphics
   * targeting fx (nullsig, chaff) 
   * invisibility 
   * weapon handling 
-  * heat management 
+  * heat management - which actually is complex
 
 *Note 2:* The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without significant modding the source
 
-== Models ==
-
-The single biggest issue is the models - you can read about my misadventures here in the[http://mechbay.teamxbow.org/cube_to_mech.htm Mechbay]
  
