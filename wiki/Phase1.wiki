@@ -40,11 +40,12 @@ Failed to be able to import/export model into Blender, unable to install 3DS Max
   *  Able to modify HUD -  probably OK
   *  Status - Functional 
 === 7. Engine Mods === 
-I was really hoping to avoid any mods, but there will have to be more thab I hoped. So for phase 1 the only engine mods will be:
-  * Controller Mod
-  * Minor things like names 
-  * Mech movement -  torso rotation (possibly if I can get a mech model working)
+I was really hoping to avoid any mods, but there will have to be more than I hoped. For phase 1 the only engine mods will be non critical, and a chance to get to grips with C and the tools.:
+  * Controller Mod > have downloaded the old joystick mod. Hopefully agood place to start.
+  * Minor things like names *OK*  
+  * Mech movement -  torso rotation (possibly if I can get a decent mech model working)
 Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
+  *  Configaration files - why do I want to do this? It may be possible to 'piggyback' off a BF install, this would mean we could stay away from the great majority of content for the moment and concentrate on the workings.
   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility
   * Mech behavoirs (flying, gimped are misssing from the engine)
   * Mech Damage 
