@@ -33,7 +33,7 @@ Failed to be able to import/export model into Blender, unable to install 3DS Max
   *  think about weapons (most md2) - see here
   *  think about destructible terrain
   *  find modellers!!! (maybe purchase/competion)
-http://www.mechbay.teamxbow.org/game/start_screen_atlas.jpg
+http://mechbay.teamxbow.org/game/start_screen_atlas.jpg
 === 6. GUI, Graphics & Graphics Tool Chain === 
   *  Graphics Tool Chain - *OK*
   *  Able to modify GUI - *OK*
