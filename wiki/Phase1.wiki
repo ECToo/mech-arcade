@@ -45,11 +45,16 @@ I was really hoping to avoid any mods, but there will have to be more than I hop
   * Minor things like names *OK*  
   * Mech movement -  torso rotation (possibly if I can get a decent mech model working)
 Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
-  *  Configaration files - why do I want to do this? It may be possible to 'piggyback' off a BF install, this would mean we could stay away from the great majority of content for the moment and concentrate on the workings.
-  * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility
+   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility
   * Mech behavoirs (flying, gimped are misssing from the engine)
   * Mech Damage 
   * Weapons -  heaps of issues!
   * Target locking, target jamming, chaff,  
   * Mech Types
   * Mech Selection and room management
+=== 8. Strategies === 
+*'piggyback' development with BF, heres the idea:*
+ *  compile mekarcade.exe to run in BF install
+ *  With different configaration files names it would be possible to 
+ *  Benefit 1: this would mean we could stay away from the great majority of content for the moment and concentrate on the workings.
+ *  Benefit 2: have feature rich environment
