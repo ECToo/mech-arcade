@@ -53,9 +53,18 @@ Unfortunately it is clear there will have to be a number of engine chages to giv
   * Target locking, target jamming, chaff,  
   * Mech Types
   * Mech Selection and room management
+  * Security and anticheating strategies.
 === 8. Strategies === 
 *'piggyback' development with BF, heres the idea:*
  *  compile mekarcade.exe to run in BF install
- *  With different configaration files names it would be possible to 
- *  Benefit 1: this would mean we could stay away from the great majority of content for the moment and concentrate on the workings.
- *  Benefit 2: have feature rich environment
+ *  With different configaration files names it would be possible to have a completely independent install but able to draw on the content
+ *  The Benefit is we could stay away from the great majority of content for the moment and concentrate on the workings.
+*Blood Mars*
+ *  Piggyback this off the Piggyback!!
+ *  Campaign style levels, less complex than mekArcade 
+ *  Use same technique
+ *  is also the failure strategy - if can't get MekArcade working, all the 'stuff' and skills could be used for the Blood Mars campaign
+*Content Strategies*
+ *  Use Open source if possible
+ *  Collaborators 
+ *  Purchase/commision/competiton
