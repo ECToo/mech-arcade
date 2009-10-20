@@ -2,31 +2,30 @@
 #labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured
 == Parts of Phase 1 ==
 
-1. Tool Chain 
-- about 75% done. See [ToolChains]
-- Models remain the greatest problem
+=== 1. Tool Chain ===
+- about 75% done. See [ToolChains], models remain the greatest problem, work around;
+  *  use MD2/3 for the player/characters for the present
+  *  these can be used for entities
 
-2. Configure 
-- 
-- some easy changes to mimic Mech behavoir  eg:
+=== 2. Configuration and Scripting ===
+- many options to configure and script, for example some easy changes to mimic Mech behavoir  eg:
   *  kamikaze -  set to 3 makes a mech like explosion
   *  maxhealth - Inceased global health to 500 gives a much  
   *  jumpscale - set to zero this stops them jumping
+  *  Note these are for BF, some are differt from SB
 
-3. Explore the Engine and 
-
-4. Compiling
-- Installed code blocks and MWGNU compiler *OK*
-- Recompiled engine with minor changes *OK*
-- set up a code/project repository *OK*
-- Status:  Functional 
+=== 3. Compiling, C and the Engine and ===
+  *  Installed code blocks and MWGNU compiler *OK*
+  *  Recompiled engine with minor changes *OK*
+  *  set up a code/project repository *OK*
+  *  Status:  Functional 
 
 Todo: 
-Explore engine
-Define needs
-find C coder
+  *  Explore engine
+  *  Define needs
+  *  find C coder
 
-5 Maps & Map Tool Chain
+=== 4. Maps & Map Tool Chain === 
 Basic map editing *OK*
 Status - Functional 
 Todo: 
@@ -34,25 +33,25 @@ Todo:
   *  Gain proficency in map making
   *  find map makers
 
-3. Model & Model Tool Chain
+===  5. Model & Model Tool Chain === 
 Failed to be able to import/export model into Blender
 Unable to install 3DS Max on W7
 Have been able to view and edit older md2 models 
 Status - Non Functional 
 Todo: 
-work with md2 files. Can they do the job?
-think about weapons (most md2) - see here
-think about destructible terrain
-find modellers
-4. Graphics & Graphics Tool Chain
-Able to modify GUI - OK
-Able to modify HUD -  probably OK
-Status - Functional 
-Todo:  
-
-
-
+  *  work with md2 files. Can they do the job?
+  *  think about weapons (most md2) - see here
+  *  think about destructible terrain
+  *  find modellers!!! (maybe purchase/competion)
+=== 6. GUI, Graphics & Graphics Tool Chain === 
+  *  Graphics Tool Chain - *OK*
+  *  Able to modify GUI - *OK*
+  *  Able to modify Bootup - *OK*
+  *  Able to modify HUD -  probably OK
+  *  Status - Functional 
+ 
+=== 7. XXXXXXXXX === 
 Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
+  * Mech movement
   * Headings, paragraphs, and lists
   * Automatic links to other wiki pages
