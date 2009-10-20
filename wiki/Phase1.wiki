@@ -39,8 +39,16 @@ Failed to be able to import/export model into Blender, unable to install 3DS Max
   *  Able to modify Bootup - *OK*
   *  Able to modify HUD -  probably OK
   *  Status - Functional 
-=== 7. XXXXXXXXX === 
-Add your content here.  Format your content with:
-  * Mech movement
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+=== 7. Engine Mods === 
+I was really hoping to avoid any mods, but there will have to be more thab I hoped. So for phase 1 the only engine mods will be:
+  * Controller Mod
+  * Minor things like names 
+  * Mech movement -  torso rotation (possibly if I can get a mech model working)
+Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
+  * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility
+  * Mech behavoirs (flying, gimped are misssing from the engine)
+  * Mech Damage 
+  * Weapons -  heaps of issues!
+  * Target locking, target jamming, chaff,  
+  * Mech Types
+  * Mech Selection and room management
