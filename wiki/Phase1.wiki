@@ -28,11 +28,12 @@ Todo next:
 ===  5. Model & Model Tool Chain === 
 Failed to be able to import/export model into Blender, unable to install 3DS Max on W7 though with other tools I have been able to view and edit older md2 models. Status is therefore:  Non Functional. For the moment I will: 
   *  work with md2 or 3 files. Can they do the job?
-  *  find tools to work with md2 files. 
+  *  find tools to work with these files - or am I wasting my time
   *  think about how to implement heat and health into models. 
   *  think about weapons (most md2) - see here
   *  think about destructible terrain
   *  find modellers!!! (maybe purchase/competion)
+www.mechbay.teamxbow.org/game/start_screen_atlas.jpg
 === 6. GUI, Graphics & Graphics Tool Chain === 
   *  Graphics Tool Chain - *OK*
   *  Able to modify GUI - *OK*
