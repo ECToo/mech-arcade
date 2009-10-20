@@ -6,9 +6,15 @@
 === 2. Configuration and Scripting ===
 - many options to configure and script, for example some easy changes to mimic Mech behavoir  eg:
   *  kamikaze -  set to 3 makes a mech like explosion
-  *  maxhealth - Inceased global health to 500 gives a much  
+  *  maxhealth - Inceased global health to 500 gives a much mech like game play 
   *  jumpscale - set to zero this stops them jumping
   *  Note these are for BF, some are differt from SB
+To give a mechassault style third person perspective
+  *  thirdperson 1
+  *  thirdpersondist -100 1 100 Camera distance from the player model, 
+  *  thirdpersonshift 0
+  *  thirdpersonangle 45
+
 === 3. Compiling, C and the Engine ===
   *  Installed code::blocks and MWGNU compiler *OK*
   *  Recompiled engine with minor changes *OK*
