@@ -1,5 +1,5 @@
 #summary Phase 1 is the Proof of Concept Phase
-#labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured
+#labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured,Phase1
 == Parts of Phase 1 ==
 === 1. Tool Chain ===
 - about 75% done. See [ToolChains], models remain the greatest problem, see 6 below;
@@ -7,14 +7,13 @@
 - many options to configure and script, for example some easy changes to mimic Mech behavoir  eg:
   *  kamikaze -  set to 3 makes a mech like explosion
   *  maxhealth - Inceased global health to 500 gives a much mech like game play 
-  *  jumpscale - set to zero this stops them jumping
-  *  Note these are for BF, some are differt from SB
+  *  jumpscale - set to zero this stops them jumping around like grasshoppers
+  *  _Note:_ these are for BF, most are differt from SB
 To give a mechassault style third person perspective
   *  thirdperson 1
-  *  thirdpersondist -100 1 100 Camera distance from the player model, 
+  *  thirdpersondist 40 Camera distance from the player model, 
   *  thirdpersonshift 0
   *  thirdpersonangle 45
-
 === 3. Compiling, C and the Engine ===
   *  Installed code::blocks and MWGNU compiler *OK*
   *  Recompiled engine with minor changes *OK*
