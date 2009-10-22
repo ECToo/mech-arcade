@@ -4,20 +4,18 @@
 I was hopeful of no engine mods, however there are a number of behavoirs and functions that will probably require engine +/- model changes.
  
   *  Weapons - Some changes would be necessary.  The more you could use original code the better. You need the projectile & the fx, not the actual weapon, thus you could probably remove actual weapon models given the mech POV. I had some thoughts about this a while ago, which I put up at the mechbay, including names. Visit  http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm
-  *  Health pickup after death
-The goodies may be able to be managed with the current engine
+  *  Health pickup after death - the goodies may be able to be managed with the current engine
   *  Heat - complex see [Heat]
-  *  Mech behaviors - The engine/models would have to:  
-  *  Actions: Running, Walking, Flying, Gimped,
-  *  Damage Fx (impact animation, visual damage cues, gimping)
-  *  Input- A joy stock controller mod does exist, have downloaded and will see if I can adapt it
+  *  Mech Actions: - Torso rotation, Running, Walking, Flying, Gimped,
+  *  Mech Damage Fx - impact animation, body visual damage cues, smoke
+  *  Input - A joy stock controller mod does exist, have downloaded and will see if I can adapt it
   *  Physics - Cube does basic collision stuff (?more than MA1) and recoil (customizable)
 
 == Major Model Changes == 
 
   *  Damage effects
   *  Ragdoll behavior at death, needs explosion
-  *  Torso rotation
+  *  Torso rotation NB MD2 files cant do rotation well because no body pivot, MD3 does
   *  Flying
   *  Targeting effects (targeting, tracking, null sig, chaff)
   *  Invisibility
