@@ -42,16 +42,16 @@ http://mechbay.teamxbow.org/game/start_screen_atlas.jpg
 === 6. GUI, Graphics & Graphics Tool Chain === 
   *  Graphics Tool Chain - *OK*
   *  Able to modify GUI - *OK*
-  *  Able to modify Bootup - *OK*
+  *  Able to modify Bootup - *OK* see image above
   *  Able to modify HUD -  probably OK
   *  Status - Functional 
 === 7. Engine Mods === 
 I was really hoping to avoid any mods, but there will have to be more than I hoped. For phase 1 the only engine mods will be non critical, and a chance to get to grips with C and the tools.:
-  * Controller Mod > have downloaded the old joystick mod. Hopefully agood place to start.
+  * Controller Mod > have downloaded the old joystick mod. Hopefully a good place to start.
   * Minor things like names *OK*  
   * Mech movement -  torso rotation (possibly if I can get a decent mech model working)
 Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
-   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility
+   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility. Update: see [Heat]
   * Mech behavoirs (flying, gimped are misssing from the engine)
   * Mech Damage 
   * Weapons -  heaps of issues!
