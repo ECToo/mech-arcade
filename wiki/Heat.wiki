@@ -19,3 +19,4 @@ This is the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechd
   *  Salvage - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss 
   *  Jumpjets - Speed & time, will have it's own section!
   *  Defense - one of Nullsig, Cloak, Antimissile or Shield Will have it's own section!
+I have started a page [MechClass] about developing a programatic class.
