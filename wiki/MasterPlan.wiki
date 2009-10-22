@@ -10,6 +10,7 @@ Get a mech model into current maps, as a basic a proof of concept. Reskin the GU
   * invisibility 
   * weapon handling 
   * heat management (quite complex)
+See updates and progress at [Phase1]
 Note 2: The Mech would be a player not a vehicle b/c the cube engine doesn't do vehicles without modding the source
 ==Step 2 - Get the old Mechassault feel - Ver 0.2 6 months==
   * Add controller support 
