@@ -1,8 +1,7 @@
 #summary Thoughts about developing a Mech Class.
 #labels Phase-Design,Phase1
 This follows on from the [Heat] page.
-=== Developing a Mech Class===
-I have started with the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] which uses data from Shaow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe.  
+=== Developing a Mech Class=== I have started with the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] which uses data from Shaow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe.  
   *  Weight - fixed. 
   *  Armor - very important.  
   *  Speed - speeds in game are not what is published.
@@ -14,8 +13,7 @@ I have started with the headings taken from the [http://mechbay.teamxbow.org/sim
   *  Salvage - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss 
   *  Jumpjets - Speed & time, will have it's own section!
   *  Defense - one of Nullsig, Cloak, Antimissile or Shield Will have it's own section!
-The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
-=== Why is developing a Mech Class important===
+The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. === Why is developing a Mech Class important===
   *  Help with development of the game model
   *  Provide a framework for the propsed engine mods 
   *  In the future it will be easier to add functionality with a well sorted out and documented model 
