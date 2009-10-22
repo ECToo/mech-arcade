@@ -1,30 +1,20 @@
 #summary Engine and model mods - 1st draft
 #labels Phase-Requirements,Phase-Design
-
 == Engine Mods == 
-
 I was hopeful of no engine mods, however there are a number of behavoirs and functions that will probably require engine +/- model changes. 
-
 1. Weapons 
 Some changes would be necessary.  The more you could use original code the better. You need the projectile & the fx, not the actual weapon, thus you could probably remove actual weapon models given the mech POV. I had some thoughts about this a while ago, which I put up at the mechbay, including names. Visit  http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm
-
 2. Health pickup after death
 The goodies may be able to be managed with the current engine
-
-3. HUD & GUI
-Looks like all can be done without engine changes
-
+3. Heat - complex see [Heat]
 4. Mech behaviors
 The engine/models would have to  
   *  Actions: Running, Walking, Flying, Gimped,
-  *  Heat management
   *  Damage Fx (impact animation, visual damage cues, gimping)
-
 5. Input
 A joy stock controller mod does exist, have downloaded and will see if I can adapt it
-
 6. Physics
-Cude does basic collision stuff (?more or less than MA1)
+Cube does basic collision stuff (?more than MA1) and recoil (customizable)
 
 == Major Model Changes == 
 
@@ -34,13 +24,3 @@ Cude does basic collision stuff (?more or less than MA1)
   *  Flying
   *  Targeting effects (targeting, tracking, null sig, chaff)
   *  Invisibility
-
-== HUD == 
-
-  *  Radar - should be able to be turned on
-  *  Graphics/Style - can do already
-
-== Menu & GUI == 
-
-  *  Layout - can do already
-  *  Graphics/Style - can do already
