@@ -1,21 +1,21 @@
-#summary Thoughts about developing a Mech Class.
+#summary Thinking about developing a Mech Class.
 #labels Phase-Design,Phase1
 This follows on from the [Heat] page.
 === Developing a Mech Class=== 
 I have started with the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] which uses data from Shaow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe.  
-  *  Weight - fixed. 
+  *  Weight - fixed. (Chassis + armor + weapons + defense)
   *  Armor - very important.  
-  *  Speed - speeds in game are not what is published.
-  *  Torso Rotation - a very important constraint.  
+  *  Speed - Proportinal to weight. _note:_ in game speeds  are not what are published. Little mechs go slower relative to big mechs.
+  *  Torso Rotation - a very important constraint particularily on big mechs v liitle mechs. Important to get the MA feel. Needs MD3 or MD5 models.  
   *  Class - arbitary term eg assault, light etc 
   *  MxHeat - max 200 htu
   *  CoolRate - max 20 htu/s
-  *  Weapons - complex, will have it's own section!
+  *  Weapons - 3 categories, about 10 types, complex rules/models/particle fx. Must consider heat management, firing and 'projectile/energy fx, targetting, impact fx, power ups etc. I did a little bit of thinking about how the cube weapons could be made to be mech weapons - read it [http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm here.]. Probably won't be implemented till stage 4.
   *  Salvage - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss 
-  *  Jumpjets - Speed & time, will have it's own section!
+  *  Jumpjets - Variables: Speed & time, model needs to have exhaust and a flying posture (probaly including take off and landing animations) This will have it's own section! One possibility is to modify the prone/crawl part of the engine code (& the models!) Another would be to drop it.
   *  Defense - one of Nullsig, Cloak, Antimissile or Shield Will have it's own section!
 The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
 === Why is developing a Mech Class important===
   *  Help with development of the game model
   *  Provide a framework for the propsed engine mods 
-  *  In the future it will be easier to add functionality with a well sorted out and documented model 
+  *  In the future it will be easier to add functionality with a well sorted out and documented model. That should be enough. 
