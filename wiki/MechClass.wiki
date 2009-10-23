@@ -10,11 +10,10 @@ I have started with the headings taken from the [http://mechbay.teamxbow.org/sim
   *  Class - arbitary term eg assault, light etc 
   *  MxHeat - max 200 htu
   *  CoolRate - max 20 htu/s
-  *  Weapons - 3 categories, about 10 types, complex rules/models/particle fx. Must consider heat management, firing and 'projectile/energy fx, targetting, impact fx, power ups etc. I did a little bit of thinking about how the cube weapons could be made to be mech weapons -  [http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm read it here,] however I did this before I started looking at the closely engine. Probably won't be implemented till late, maybe stage 4.
+  *  Weapons - 3 categories, about 10 types, complex rules/models/particle fx. Must consider heat management, firing and 'projectile/energy fx, targetting, impact fx, power ups etc. I did a little bit of thinking about how the cube weapons could be made to be mech weapons -  [http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm read it here,] however I did this before I started looking at the closely engine. Probably won't be implemented till late, maybe stage 4. Linked closely with heat management and defense.
   *  Salvage - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss 
   *  Jumpjets - Variables: Speed & time, model needs to have exhaust and a flying posture (probaly including take off and landing animations) This will have it's own section! One possibility is to modify the prone/crawl part of the engine code (& the models!) Another would be to drop it.
-  *  Defense - one of Nullsig, Cloak, Antimissile or Shield Will have it's own section!
-The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
+  *  Defense - one of Nullsig, Cloak, Antimissile or Shield Complex, linked closely with weapons! The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
 === Why is developing a Mech Class important===
   *  Help with development of the game model
   *  Provide a framework for the propsed engine mods 
