@@ -1,4 +1,4 @@
-#summary Thoughts about adding heat management.
+#summary Adding heat management - more complex than I thought.
 #labels Phase-Design,Featured,Phase2
 == Feel the Heat! ==
 Heat management has always been one of the big Mechwarrior game contraints, one of the few which made it through to Mechassault. Heat build up when firing weapons (some more than others), when hit with some weapons, flying and maybe with running. Cooling increases when you are still or are in water. Heat also affects a weapons rate of fire and invisibility. Unlike the Mechwarrior series heat won't destroy the mech, just make it neutered until it cools a bit. 
