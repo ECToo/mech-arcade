@@ -1,0 +1,20 @@
+#summary Requirement for a Mech model.
+#labels Phase-Requirements,Phase1
+
+Weight, Armor, Speed Torso Rotation - a very important constraint particularily on big 
+
+===Basic Model===
+
+Run
+Walk
+Torso Rotation
+Gimped
+Destroyed
+
+===Complex Model===
+Basic Model Animations as described above.
+Damage Effects
+Heat Effects
+Weapons 
+Jumpjets 
+Defense - one of Nullsig, Cloak, Antimissile or Shield. Complex, linked closely with weapons/targeting! The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
