@@ -8,7 +8,6 @@ The model would need the following basic animations
   *  Torso Rotation 
   *  Gimped (damgaged and limping)
   *  Destroyed
-
 ===Complex Model===
   *  Basic Model Animations as described above.
   *  Damage Effects
