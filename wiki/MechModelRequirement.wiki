@@ -1,6 +1,6 @@
 #summary Requirement for a Mech model.
 #labels Phase-Requirements,Phase1
-The basic model is all that would be needed for phase 1 testing, while 
+The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model would be needed for release. We probably need actually need 2 reference mechs, a chicken walker and human style.
 ===Basic Model===
 The model would need the following basic animations
   *  Run
