@@ -1,20 +1,19 @@
 #summary Requirement for a Mech model.
 #labels Phase-Requirements,Phase1
-
-Weight, Armor, Speed Torso Rotation - a very important constraint particularily on big 
-
+The basic model is all that would be needed for phase 1 testing, while 
 ===Basic Model===
-
-Run
-Walk
-Torso Rotation
-Gimped
-Destroyed
+The model would need the following basic animations
+  *  Run
+  *  Walk
+  *  Torso Rotation 
+  *  Gimped (damgaged and limping)
+  *  Destroyed
 
 ===Complex Model===
-Basic Model Animations as described above.
-Damage Effects
-Heat Effects
-Weapons 
-Jumpjets 
-Defense - one of Nullsig, Cloak, Antimissile or Shield. Complex, linked closely with weapons/targeting! The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements. 
+  *  Basic Model Animations as described above.
+  *  Damage Effects
+  *  Heat Effects
+  *  Weapons 
+  *  Jumpjets 
+  *  Defense - one of Nullsig, Cloak, Antimissile or Shield. 
+  *  ?keep taunt, can a mech taunt? - _'I exhaust my plasma waste in your general direction'_
