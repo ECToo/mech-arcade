@@ -1,4 +1,6 @@
-#summary Ideas for the Far Future V2.0+.
+#summary Ideas for the Future V2.0+.
+=== Security ===
+
 === Other Vehicles ===
 To accomadate other vehicles the main XXXXX would be with respect to Locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped 
 === Mech Customization===
