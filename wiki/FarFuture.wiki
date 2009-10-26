@@ -1,12 +1,13 @@
 #summary Ideas for the Future V2.0+.
 === Security ===
+This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/ (read here] and [http://cheatengine.org/ here) ]and the fact the engine is OS means there can be no security. Or does it?
 
 === Other Vehicles ===
 To accomadate other vehicles the main XXXXX would be with respect to Locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped 
 === Mech Customization===
-Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming.
-=== MecArcade : Galactic Conquest ===
-Fight across the galaxy in a persisting universe!. This was a nice idea that didn't work very well in Mechassault 2. This could perhaps be implemented rather simply, at least from the point of view of the cube engine. You could have paticular servers or hosts that host Conquest Games. The connections could be hard coded into a menu or a lobby like map. The work of maintaining the state of the galaxy, results, clans would all be done on the Conquest server. Some means of passing scores from the cube engine to the Conquest server.  
+Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming; for both the player and especially the developer. Leave it on the table.
+=== Galactic Conquest ===
+Fight across the galaxy in a persisting universe!. This was a nice idea that didn't work very well in Mechassault 2. This could perhaps be implemented rather simply, at least from the point of view of the cube engine. You could have paticular servers or hosts that host Conquest Games. The connections could be hard coded into a menu or a lobby like map. The work of maintaining the state of the galaxy, scheduling matches, results and clan management would all be done on the Conquest server. Some means of passing scores from the cube engine to the Conquest server would be needed. Maybe the IRC Client could be used.   
 === Explore Robotic Warfare===
   * Already does bots  
   * The game play 
