@@ -1,7 +1,8 @@
-#summary ideas for the Far Future V2.0+.
-
+#summary Ideas for the Far Future V2.0+.
 === Other Vehicles ===
 To accomadate other vehicles the main XXXXX would be with respect to Locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped 
+=== Mech Customization===
+Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming.
 === MecArcade : Galactic Conquest ===
 Fight across the galaxy in a persisting universe!. This was a nice idea that didn't work very well in Mechassault 2. This could perhaps be implemented rather simply, at least from the point of view of the cube engine. You could have paticular servers or hosts that host Conquest Games. The connections could be hard coded into a menu or a lobby like map. The work of maintaining the state of the galaxy, results, clans would all be done on the Conquest server. Some means of passing scores from the cube engine to the Conquest server.  
 === Explore Robotic Warfare===
