@@ -1,6 +1,6 @@
 #summary Ideas for the Future V2.0+.
 === Security ===
-This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/ (read here] and [http://cheatengine.org/ here) ]and the fact the engine is OS means there can be no security. Or does it?
+This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/ (read here] and [http://cheatengine.org/ here) ]and the fact the engine is OS means there can be no security. Or does it? Read this post [TrustedCommunities Trusted Communities], they may provide one way to provide a secure environment. 
 
 === Other Vehicles ===
 To accomadate other vehicles the main XXXXX would be with respect to Locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped 
