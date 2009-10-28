@@ -16,4 +16,4 @@ Lack of heat effects would be a significant change from MA gameplay:
   * Weapon firing
   * The effects on invisibility
 Perhaps we could just turn down the heat, add it later rather than Phase 2 or 3.
- *STATUS: This one is still up in the air*
+ * STATUS: This one is still up in the air*
