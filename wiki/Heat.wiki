@@ -6,17 +6,14 @@ Heat management has always been one of the big Mechwarrior game contraints, one 
 Some wechs were 'heat pigs' and generally less effective than a cooler variant. The Ymir is perhaps the best and hottest example. I have some data on heat, if you look [http://mechbay.teamxbow.org/simpledb1/mechdata1.php here ] you will notice two variables, Mx Heat and Cool Rt. Not sure what the units are, the first is how hot the mech can become and the second is the cool rate, perhaps in heat units/second. I have no information on heat generation by weapons, except from experience PPC and Lasers generate more heat than Gauss and MG for example. I believe Heat management is one of the important things to get that MA feel.
 == Heat as an example of a game constraint==
 As I looked throught the code it became clear that there was nothing that could easily be configured to simulate heat management in MA. So I am going to have to code it. Damn! It is going to be second on the list of mods after the controller, mainly because it is more complex and fundemental than the controller, which I am sort of hoping will be a 'bolt on' extra. As I was thinking about heat I realized it could be used as a generic constraint, such as vehicle fuel in a vehicle, but instead of generating it, like heat, you would consume it as you moved or possibly used your weapons. This lead to me realizing I needed to think more fundementally about developing a mech class, to for a framework for any engine changes and the flow on to the actual models and behavoirs. 
-=== Developing a Mech Class===
-This is the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] with some comments. Weight determines the amount of 'stuff' the mech can carry and at what speed according to rules from the MW universe.  
-  *  Weight - fixed. 
-  *  Armor - very important.  
-  *  Speed - speeds in game are not what is published.
-  *  Torso Rotation - a very important constraint.  
-  *  Class - arbitary term eg assault, light etc 
-  *  MxHeat - max 200 htu
-  *  CoolRate - max 20 htu/s
-  *  Weapons - complex, will have it's own section!
-  *  Salvage - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss 
-  *  Jumpjets - Speed & time, will have it's own section!
-  *  Defense - one of Nullsig, Cloak, Antimissile or Shield Will have it's own section!
-I have started a page [MechClass] about developing a programatic class.
+=== Take me off the burner!===
+One oprtion would be to drop heat. Don't do it at all. The following would be simpler without heat:
+* The model - no heat effects to show
+* No complex engine changes to implement heat
+* The engine changes would be simpler for other things eg weapons because no heat
+* The HUD
+Lack of heat effects would be a significant change from MA gameplay:
+* Weapon firing
+* The effects on invisibility
+Perhaps we could just turn down the heat, add it later rather than Phase 2 or 3.
+*STATUS: This one is still up in the air*
