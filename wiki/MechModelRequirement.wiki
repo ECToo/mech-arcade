@@ -1,16 +1,18 @@
 #summary Requirement for a Mech model.
 #labels Phase-Requirements,Phase1
-The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model with all the goodies would be needed for release. During Phase 2 we probably actually need to develop 2 reference mechs, a chicken walker and human style.
+The *basic model* is all that would be needed for phase 1 testing and developing a 'reference mech'. Infact we want a model that we can just drop in to the engine NOW, as is. The complex model with all the goodies would be needed for release. Significant change to the engine would be needed to accomadate all the added functionality of the complex model. During Phase 2 we probably actually need to develop 2 reference mechs, a chicken walker and one with a human style gait.
 ===Basic Model===
-The model would need the following basic animations:
-  *  Run
-  *  Walk
-  *  Torso Rotation 
-  *  Gimped (damgaged and limping)
-  *  Destroyed
-  *  A basic weapon to fire if possible
-Format: MD3 or MD5, importable into Blood Frontier/Cube
-Game Size: 2 storeys tall
+The model would need the following basic features:
+  *  Run animation
+  *  Walk animation
+  *  Torso Rotation animation
+  *  Gimped (damgaged and limping)animation
+  *  Destroyed animation
+  *  A basic weapon to fire if possible - I want to run ariound shooting at Xmas!
+  *  Animations are accessed programatically in exactly the same way as the engine currently does.
+  *  Basic parameter like speed, turn speed need to be able to be set programatically 
+  *  Format: MD3 or MD5, suitable for import straight into Blood Frontier/Cube
+  *  Game Size: 1 to 2 storeys tall
 ===Complex Model===
   *  Basic Model Animations as described above.
   *  Damage Effects
@@ -21,4 +23,12 @@ Game Size: 2 storeys tall
   *  ??keep taunt, can a mech taunt? - _'I exhaust my plasma waste in your general direction'_
   *  ??Others
 ===Commission a Model===
-Out of my very empy
+Out of my very empty pockets I have found a few credits and even sold my youngest child for a small profit; just so we can ask for Cube Modellers to provide a quote for building us a Mech. 
+
+*CUBE MODELLERS SEND US A QUOTE FOR A MECH MODEL - Send to cdxbow@yahoo.com.au
+
+You can quote for either, though we can't actually handle all the elements in a complex model yet and I would probably have to sell another child to pay for it. That would only leave one for the erest of the project.
+
+To help you along I can send you a number of open source mech models in other formats. I will send them after intial contact. If you simply have advice, I would love to hear it, or recommend artist, I would be grateful to for that too.
+
+If you don't have a bloody clue what a mech is then look here at the  [http://mechbay.teamxbow.org/default.htm The Mechbay] You can look at images in the gallery and read articles about Mechs and the game, Mechassault. 
