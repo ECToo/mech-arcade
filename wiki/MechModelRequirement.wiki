@@ -9,9 +9,8 @@ The model would need the following basic animations:
   *  Gimped (damgaged and limping)
   *  Destroyed
   *  A basic weapon to fire if possible
-
 Format: MD3 or MD5, importable into Blood Frontier/Cube
-
+Game Size: 2 storeys tall
 ===Complex Model===
   *  Basic Model Animations as described above.
   *  Damage Effects
