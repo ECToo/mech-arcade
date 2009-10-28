@@ -1,6 +1,6 @@
 #summary Requirement for a Mech model.
 #labels Phase-Requirements,Phase1
-The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model with all the goodies would be needed for release. During Phase 2 we probably actually need 2 reference mechs, a chicken walker and human style.
+The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model with all the goodies would be needed for release. During Phase 2 we probably actually need to develop 2 reference mechs, a chicken walker and human style.
 ===Basic Model===
 The model would need the following basic animations:
   *  Run
@@ -16,7 +16,9 @@ Game Size: 2 storeys tall
   *  Damage Effects
   *  Heat Effects - possibly
   *  Weapons 
-  *  Jumpjets - for some, eventulally 
+  *  Jumpjets - for some, eventually 
   *  Defense - one of Nullsig, Cloak, Antimissile or Shield. 
   *  ??keep taunt, can a mech taunt? - _'I exhaust my plasma waste in your general direction'_
   *  ??Others
+===Commission a Model===
+Out of my very empy
