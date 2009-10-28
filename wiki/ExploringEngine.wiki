@@ -7,4 +7,4 @@ This is the 'Beta' release from Feb 09, which was a pretty tight piece of work. 
 
 === Engine 0.84 Dev===
 
-This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. 
+This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC.I am going to explore this one more.
