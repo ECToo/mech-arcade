@@ -1,18 +1,23 @@
 #summary Requirement for a Mech model.
 #labels Phase-Requirements,Phase1
-The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model would be needed for release. We probably need actually need 2 reference mechs, a chicken walker and human style.
+The basic model is all that would be needed for phase 1 testing and developing a 'reference mech', while the complex model with all the goodies would be needed for release. During Phase 2 we probably actually need 2 reference mechs, a chicken walker and human style.
 ===Basic Model===
-The model would need the following basic animations
+The model would need the following basic animations:
   *  Run
   *  Walk
   *  Torso Rotation 
   *  Gimped (damgaged and limping)
   *  Destroyed
+  *  A basic weapon to fire if possible
+
+Format: MD3 or MD5, importable into Blood Frontier/Cube
+
 ===Complex Model===
   *  Basic Model Animations as described above.
   *  Damage Effects
-  *  Heat Effects
+  *  Heat Effects - possibly
   *  Weapons 
-  *  Jumpjets 
+  *  Jumpjets - for some, eventulally 
   *  Defense - one of Nullsig, Cloak, Antimissile or Shield. 
-  *  ?keep taunt, can a mech taunt? - _'I exhaust my plasma waste in your general direction'_
+  *  ??keep taunt, can a mech taunt? - _'I exhaust my plasma waste in your general direction'_
+  *  ??Others
