@@ -8,12 +8,12 @@ Some wechs were 'heat pigs' and generally less effective than a cooler variant. 
 As I looked throught the code it became clear that there was nothing that could easily be configured to simulate heat management in MA. So I am going to have to code it. Damn! It is going to be second on the list of mods after the controller, mainly because it is more complex and fundemental than the controller, which I am sort of hoping will be a 'bolt on' extra. As I was thinking about heat I realized it could be used as a generic constraint, such as vehicle fuel in a vehicle, but instead of generating it, like heat, you would consume it as you moved or possibly used your weapons. This lead to me realizing I needed to think more fundementally about developing a mech class, to for a framework for any engine changes and the flow on to the actual models and behavoirs. 
 === Take me off the burner!===
 One oprtion would be to drop heat. Don't do it at all. The following would be simpler without heat:
-* The model - no heat effects to show
-* No complex engine changes to implement heat
-* The engine changes would be simpler for other things eg weapons because no heat
-* The HUD
+  * The model - no heat effects to show
+  * No complex engine changes to implement heat
+  * The engine changes would be simpler for other things eg weapons because no heat
+  * The HUD
 Lack of heat effects would be a significant change from MA gameplay:
-* Weapon firing
-* The effects on invisibility
+  * Weapon firing
+  * The effects on invisibility
 Perhaps we could just turn down the heat, add it later rather than Phase 2 or 3.
-*STATUS: This one is still up in the air*
+ *STATUS: This one is still up in the air*
