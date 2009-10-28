@@ -1,9 +1,7 @@
 #summary Requirement for a Mech model for the Cube 2 engine.
 #labels Phase-Requirements,Phase1
 The *basic model* is all that would be needed for our phase 1 testing and further developing a 'reference mech'. Infact we want a model that we can just drop in to the engine NOW, as is. The complex model with all the goodies would be needed for release. Significant change to the engine would be needed to accomadate all the added functionality of the complex model. During Phase 2 we probably actually need to develop 2 reference mechs, a chicken walker and one with a human style gait.
-----
 *CUBE MODELLERS SEND US A QUOTE FOR A MECH MODEL - Send to cdxbow@yahoo.com.au See below
-----
 ===Basic Model===
 The model would need the following basic features:
   *  Run animation
@@ -36,4 +34,3 @@ You can quote for either, though we can't actually handle all the elements in a 
 To help you along I can send you a number of open source mech models in other formats. I will send them after intial contact. If you simply have advice, I would love to hear it, or recommend an artist, I would be grateful to for that too.
 
 If you don't have a bloody clue what a mech is then look here at the  [http://mechbay.teamxbow.org/default.htm The Mechbay] You can look at images in the gallery and read articles about Mechs and the game, Mechassault. 
-
