@@ -20,8 +20,8 @@ To give a mechassault style third person perspective you can use these commands 
   *  set up a code/project repository *OK*
   *  Status:  Functional
 Todo: 
-  *  Explore engine
-  *  Define needs
+  *  Explore engine - see [ExploringEngine here.]
+  *  Define needs - always a bit slippery
   *  find C coder
 === 4. Maps & Map Tool Chain === 
   *  Basic map editing *OK*
@@ -51,7 +51,7 @@ I was really hoping to avoid any mods, but there will have to be more than I hop
   * Minor things like names *OK*  
   * Mech movement -  torso rotation (possibly if I can get a decent mech model working)
 Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
-   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility. Update: see [Heat]
+   * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility, see [Heat]. I think I will put this off to later, if at all. 
   * Mech behavoirs (flying, gimped are misssing from the engine)
   * Mech Damage 
   * Weapons -  heaps of issues!
