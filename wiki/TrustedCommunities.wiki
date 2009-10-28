@@ -1,6 +1,6 @@
-#summary Cheating & open source.
+#summary Cheating & open source - a copy from the Cube forum
 #labels Phase-Design
-Cheating & open source, revisited by Aardappel on 04/27/2005  
+===Cheating & open source, revisited by Aardappel on 04/27/2005=== 
  
 As you all know, cheating is a problem for Cube being Open Source. No one likes the current solution of the incompatible binaries, and I am getting to the point where I see the usefulness of having other people continue to work on Cube whenever I don't have the time.. currently that is problematic and would be much easier if the source to the official game could be truely open.
 
