@@ -9,8 +9,8 @@ The model would need the following basic features:
   *  Gimped (damgaged and limping)animation
   *  Destroyed animation
   *  A basic weapon to fire if possible - I want to run ariound shooting at Xmas!
-  *  Animations are accessed programatically in exactly the same way as the engine currently does.
-  *  Basic parameter like speed, turn speed need to be able to be set programatically 
+  *  Animations are accessed programatically in exactly the same way as the engine currently does, because we want it 'drop in'.
+  *  Basic parameters like speed, turn speed need to be able to be set programatically 
   *  Format: MD3 or MD5, suitable for import straight into Blood Frontier/Cube
   *  Game Size: 1 to 2 storeys tall
 ===Complex Model===
