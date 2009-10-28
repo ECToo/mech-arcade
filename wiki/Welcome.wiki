@@ -10,7 +10,7 @@ I have been looking at the 4 most likely cube candidates as the game engine base
 
 == The Plan ==
 
-Only considering the first phase at this stage - read [Phase1] for progress. In short I want to get a mech model into the  current maps, as a basic a proof of concept. I am reskining the GUI to make it more mech like, and I have to get the 'tool chains' for code, models, maps and graphics working. The single biggest issue so far has been the models - you can read about my misadventures here in the[http://mechbay.teamxbow.org/cube_to_mech.htm Mechbay]
+Only considering the first phase at this stage - read [Phase1] for progress. In short I want to get a mech model into the  current maps, as a basic a proof of concept. I am reskining the GUI to make it more mech like, and I have to get the 'tool chains' for code, models, maps and graphics working. The single biggest issue so far has been the models - you can read all about my intial misadventures here in the -  [http://mechbay.teamxbow.org/cube_to_mech.htm Mechbay]
 
 *Note 1:* Main difference(s) between a MA style mech the current player model: 
 
