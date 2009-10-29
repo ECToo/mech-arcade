@@ -6,7 +6,7 @@ This is the 'Beta' release from Feb 09, which was a pretty tight piece of work. 
 === Engine 0.84 Dev===
 Oct 27, 2009: This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. Looks like the carbine has dumbed down to a pistol. There are a couple more outdoors maps, that look pretty good and more suitable for mechs. 
 
-There are a few new gametypes. I is called Story. Your bots follow you round, I am guessing its like Halo, SP with your troop of Bots. One of them should be called Johnson. Nothing happens on the maps at the moment, guess they need the stuff for the SP campaign added. The other is arena, which I have not tried.
+There are a few new gametypes. One is called Story. Your bots follow you round, I am guessing its like Halo, SP with your troop of Bots. One of them should be called Johnson. Nothing happens on the maps at the moment, guess they need the stuff for the SP campaign added. The other is arena, which I have not tried.
 
 I have recompiled it OK, but it is a bit buggy.  
-Lastest dev releases http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfrontier/
+Lastest dev releases: http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfrontier/
