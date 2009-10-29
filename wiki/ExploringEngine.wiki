@@ -4,7 +4,7 @@
 === Engine 0.80 Beta===
 This is the 'Beta' release from Feb 09, which was a pretty tight piece of work. So far all our experiments have been on this version. I have run into a few problems using the dev releases
 === Engine 0.84 Dev===
-Oct 27, 2009: This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. There are more outdoors maps, that look pretty good and more suitable for mechs. 
+Oct 27, 2009: This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. Looks like the carbine has dumbed down to a pistol. There are a couple more outdoors maps, that look pretty good and more suitable for mechs. 
 
 There is a new gametype called Story. Your bots follow you round, I am guessing its like Halo, SP with your troop of Bots. One of them should be called Johnson. Nothing happens on the maps at the moment, guess they need the stuff for the SP campaign added. 
 
