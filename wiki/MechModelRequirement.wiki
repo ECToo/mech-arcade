@@ -33,3 +33,27 @@ You can quote for either, though we can't actually handle all the elements in a 
 To help you along I can send you a number of open source mech models in other formats. I will send them after intial contact. If you simply have advice, I would love to hear it, or recommend an artist, I would be grateful to for that too.
 
 If you don't have a bloody clue what a mech is then look here at the  [http://mechbay.teamxbow.org/default.htm The Mechbay] You can look at images in the gallery and read articles about Mechs and the game, Mechassault. 
+
+*Animations supported by the BF engine:* 
+  * idle, 
+  * forward, backward, left, right, 
+  * dead, dying, 
+  * pain - _would be damage. Says somewhere these are model specific_ 
+  * jump
+  * impulse forward, impulse backward, impulse left, impulse right, impulse dash - ???
+  * crouch, crawl forward, crawl backward, crawl left, crawl right, - _prone with mov_
+  * sink, swim - _jump in the water to see these_
+  * mapmodel, trigger on, trigger off, - _?interacting with map effects_
+  * edit, lag, switch, ???
+  * win, lose 
+  * pistol, pistol shoot, pistol reload,
+  * shotgun, shotgun shoot, shotgun reload,
+  * smg, smg shoot, smg reload,
+  * grenade, grenade throw, grenade reload, grenade power,
+  * flamer, flamer shoot, flamer reload,
+  * plasma, plasma shoot, plasma reload,
+  * rifle, rifle shoot, rifle reload,
+  * vwep, -  _??generic weapon_
+  * shield - _?shows you the player has picked up a sheild_  
+  * powerup - _?shows you the player is powered up_
+-*Note: Excluding the weapons I have only seen about a dozen or so of these used.*_
