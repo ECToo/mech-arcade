@@ -7,7 +7,7 @@ The model would need the following basic features:
   *  Walk animation
   *  Torso Rotation animation
   *  Gimped (damgaged and limping)animation
-  *  Destroyed animation
+  *  Destroyed animation - nice big destructive core breach.
   *  A basic weapon to fire if possible - I want to run ariound shooting at Xmas!
   *  Animations are accessed programatically in exactly the same way as the engine currently does, because we want it 'drop in'.
   *  Basic parameters like speed, turn speed need to be able to be set programatically 
