@@ -54,7 +54,7 @@ Unfortunately it is clear there will have to be a number of engine chages to giv
    * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility, see [Heat]. I think I will put this off to later, if at all. 
   * Mech behavoirs (flying, gimped are misssing from the engine)
   * Mech Damage 
-  * Weapons -  heaps of issues!
+  * Weapons -  heaps of issues, but some parts may be easier than I thought,[Weapons here].
   * Target locking, target jamming, chaff,  
   * Mech Types
   * Mech Selection and room management
