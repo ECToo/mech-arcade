@@ -24,257 +24,257 @@ const char name, text, item, vwep, proj;*
 		</tr>
 		<tr>
 			<td width="84"><b>int</b></td>
-			<td width="106"><b>&nbsp;info</b></td>
-			<td width="188">&nbsp;</td>
+			<td width="106"><b> info</b></td>
+			<td width="188"> </td>
 			<td width="166"><font face="Courier New" size="2">WEAP_PISTOL</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">anim</td>
 			<td width="188">?how much animation</td>
 			<td width="166"><font face="Courier New" size="2">ANIM_PISTOL</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">colour</td>
 			<td width="188">?vis fx</td>
 			<td width="166"><font face="Courier New" size="2">0x888888</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">sound</td>
 			<td width="188">?Fire sound</td>
 			<td width="166"><font face="Courier New" size="2">S_PISTOL</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">esound</td>
 			<td width="188">?explode/hit snds</td>
 			<td width="166"><font face="Courier New" size="2">S_BZAP</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">fsound</td>
 			<td width="188">?fire snds</td>
 			<td width="166"><font face="Courier New" size="2">S_WHIZZ</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">rsound</td>
-			<td width="188">?snds&nbsp;&nbsp; ?-1 default</td>
+			<td width="188">?snds   ?-1 default</td>
 			<td width="166">-1 </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">add</td>
 			<td width="188">?</td>
 			<td width="166">10</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">max</td>
 			<td width="188">?max </td>
 			<td width="166">10</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">sub 2</td>
 			<td width="188">?</td>
 			<td width="166"><font face="Courier New" size="2">1, 1 </font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">adelay 2 </td>
 			<td width="188">?</td>
 			<td width="166"><font face="Courier New" size="2">100, 200</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">rdelay</td>
 			<td width="188">?delay ms</td>
 			<td width="166">1000</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">damage 2</td>
 			<td width="188">?amount of damage</td>
 			<td width="166"><font face="Courier New" size="2">35, 35</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">speed 2</td>
 			<td width="188">Speed of the projectile effect</td>
 			<td width="166"><font face="Courier New" size="2">2500, 2500</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">power</td>
 			<td width="188">?</td>
 			<td width="166">0</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">time 2</td>
 			<td width="188">?</td>
 			<td width="166"><font face="Courier New" size="2">2000, 2000 </font>
 			</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">delay</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">explode</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
+			<td width="188"> </td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">rays</td>
 			<td width="188">?vis fx </td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">spread</td>
 			<td width="188">?vis fx</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">zdiv</td>
 			<td width="188">?vis fx </td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">collide</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">radial</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
 			<td width="84"><b>bool: </b></td>
 			<td width="106">taper</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
 			<td width="84">(Yes or No)</td>
 			<td width="106">extinguish,</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">burns,</td>
 			<td width="188">?vis fx of burn at hit site</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">follows</td>
 			<td width="188">?tracking</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">reloads</td>
 			<td width="188">?Self reloads</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">zooms</td>
 			<td width="188">obv</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">fullauto</td>
 			<td width="188">?Self reloads</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">thrown</td>
 			<td width="188">Is it thrown?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
 			<td width="84"><b>float:</b> </td>
 			<td width="106">elasticity</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			,&nbsp; ,&nbsp; ,&nbsp; ,&nbsp; ,&nbsp; ;</td>
+			<td width="166">          
+			,  ,  ,  ,  ,  ;</td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">reflectivity</td>
 			<td width="188">?vis fx or richochet</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">relativity</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">waterfric,</td>
 			<td width="188">effect of water on speed</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">weight,</td>
 			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">partsize</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
+			<td width="188"> </td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">partlen</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
+			<td width="188"> </td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">kickpush</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
+			<td width="188"> </td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">hitpush</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
+			<td width="188"> </td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">maxdist</td>
 			<td width="188">?range</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">halo</td>
 			<td width="188">?vis fx</td>
-			<td width="166">&nbsp;</td>
+			<td width="166"> </td>
 		</tr>
 		<tr>
 			<td width="84"><b>const char:</b></td>
@@ -283,26 +283,26 @@ const char name, text, item, vwep, proj;*
 			<td width="166"><font face="Courier New" size="2">&quot;pistol&quot;</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">text</td>
 			<td width="188">?desc</td>
 			<td width="166"><font face="Courier New" size="2">&quot;\fa&quot;</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">item</td>
 			<td width="188">Path to item (whats that?)</td>
 			<td width="166"><font face="Courier New" size="2">
 			&quot;weapons/pistol/item&quot;</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">vwep</td>
 			<td width="188">Path to model used</td>
 			<td width="166"><font face="Courier New" size="2">&quot;weapons/pistol/vwep&quot;</font></td>
 		</tr>
 		<tr>
-			<td width="84">&nbsp;</td>
+			<td width="84"> </td>
 			<td width="106">proj</td>
 			<td width="188">?</td>
 			<td width="166">&quot;&quot;</td>
