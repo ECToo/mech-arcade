@@ -1,20 +1,7 @@
 #labels Phase-Design
 ---WEAPONS---
 The weapon types structure is from game.h
-{{{struct weaptypes
-{
-int info, anim, colour, sound, esound, fsound, rsound,
-add, max, sub[2], adelay[2], rdelay, damage[2], speed[2], power, time[2],
-delay, explode[2], rays[2], spread[2], zdiv[2],
-collide[2], radial[2];
-bool taper[2], extinguish[2], burns[2], follows[2], reloads, zooms, fullauto[2], 
-thrown[2];
-float elasticity[2], reflectivity[2], relativity[2], waterfric[2], weight[2], 
-partsize[2], partlen[2],
-kickpush[2], hitpush[2], maxdist[2], halo;
-const char *name, *text, *item, *vwep, *proj;
-}
-}}}
+
 Thus the weapons consists of the same bunch of data and a model. The model may not contribute to the projectile/fx, which makes it easier with Mechs. I have tabulated it below, hopefully making it a bit more explicable below
 
 Actual Weapons
@@ -107,13 +94,7 @@ WEAP_GIBS, ANIM_GRENADE, 0x660000, S_SPLOSH, S_SPLAT, S_WHIRR, S_SPLAT,
 { 0.35f, 0.35f }, { 0, 0 }, { 1, 1 }, { 2, 2 }, { 35, 35 }, { 2, 2 }, { 0, 0 },
 { 5, 5 }, { 100, 100 }, { 500, 500 }, 4,
 "gibs", "\fw", "gibc", "gibc", "gibc"
-},
-};
-#else
-extern weaptypes weaptype[];
-#define FIRECOLOURS 8
-const int firecols[FIRECOLOURS] = { 0xFF5808, 0x981808, 0x782808, 0x481808, 0x983818, 0x601808, 0xFF1808, 0x381808 };
-#endif
+
 
 
 *Hit Effects & Behavoirs*
