@@ -1,6 +1,6 @@
 #labels Phase-Design
 ==WEAPONS==
-The weapon types structure is from the game.h file of BF 0.84  Note all the weapons consists of the same bunch of data and a model. The model may not contribute to the projectile/fx at all, which makes it easier to adapt to Mechs. I have tabulated it below, hopefully making it a bit more explicable below
+The weapon types structure is from the game.h file of BF 0.84 
 
 *struct weaptypes
 
@@ -14,6 +14,9 @@ float elasticity[2], reflectivity[2], relativity[2], waterfric[2], weight[2],
 partsize[2], partlen[2],
 kickpush[2], hitpush[2], maxdist[2], halo;
 const char name, text, item, vwep, proj;*
+
+Note: all the weapons consists of the same bunch of data and a model. The model may not contribute to the projectile/fx at all, which makes it easier to adapt to Mechs.I have tabulated it below, hopefully making it a bit more explicable. Ihave also been able to mod and successfully comple  weapons with altered parameters but same model
+
 ---
 <table border="1" width="800" id="table1">
 		<tr>
