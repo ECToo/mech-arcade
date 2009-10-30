@@ -1,541 +1,126 @@
 #labels Phase-Design
-{{{
-<h3>WEAPONS</h3>
-<p>The weapon types structure is from game.h</p>
-<p><font face="Courier New" size="2">struct weaptypes<br>
-{<br>
-int info, anim, colour, sound, esound, fsound, rsound,<br>
-add, max, sub[2], adelay[2], rdelay, damage[2], speed[2], power, time[2],<br>
-delay, explode[2], rays[2], spread[2], zdiv[2],<br>
-collide[2], radial[2];<br>
+---WEAPONS---
+The weapon types structure is from game.h
+{{{struct weaptypes
+{
+int info, anim, colour, sound, esound, fsound, rsound,
+add, max, sub[2], adelay[2], rdelay, damage[2], speed[2], power, time[2],
+delay, explode[2], rays[2], spread[2], zdiv[2],
+collide[2], radial[2];
 bool taper[2], extinguish[2], burns[2], follows[2], reloads, zooms, fullauto[2], 
-thrown[2];<br>
+thrown[2];
 float elasticity[2], reflectivity[2], relativity[2], waterfric[2], weight[2], 
-partsize[2], partlen[2],<br>
-kickpush[2], hitpush[2], maxdist[2], halo;<br>
-const char *name, *text, *item, *vwep, *proj;<br>
-}</font></p>
-<p>Thus the weapons consists of&nbsp; the same bunch of data and a model. The 
-model may not contribute to the projectile/fx, which makes it easier with Mechs.&nbsp; 
-I have tabulated it below, hopefullu ,aking it a bit 
-more explicable below:<br>
-&nbsp;</p>
-<div align="center">
-	<table border="1" width="800" id="table1">
-		<tr>
-			<td width="84"><b>Var Type</b></td>
-			<td width="106"><b>Weapon Parameter</b></td>
-			<td width="188"><b>My guess or definite description</b></td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84"><b>int</b></td>
-			<td width="106"><b>&nbsp;info</b></td>
-			<td width="188">&nbsp;</td>
-			<td width="166"><font face="Courier New" size="2">WEAP_PISTOL</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">anim</td>
-			<td width="188">?how much animation</td>
-			<td width="166"><font face="Courier New" size="2">ANIM_PISTOL</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">colour</td>
-			<td width="188">?vis fx</td>
-			<td width="166"><font face="Courier New" size="2">0x888888</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">sound</td>
-			<td width="188">?Fire sound</td>
-			<td width="166"><font face="Courier New" size="2">S_PISTOL</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">esound</td>
-			<td width="188">?explode/hit snds</td>
-			<td width="166"><font face="Courier New" size="2">S_BZAP</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">fsound</td>
-			<td width="188">?fire snds</td>
-			<td width="166"><font face="Courier New" size="2">S_WHIZZ</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">rsound</td>
-			<td width="188">?snds&nbsp;&nbsp; ?-1 default</td>
-			<td width="166">-1 </td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">add</td>
-			<td width="188">?</td>
-			<td width="166">10</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">max</td>
-			<td width="188">?max </td>
-			<td width="166">10</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">sub 2</td>
-			<td width="188">?</td>
-			<td width="166"><font face="Courier New" size="2">1, 1 </font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">adelay 2 </td>
-			<td width="188">?</td>
-			<td width="166"><font face="Courier New" size="2">100, 200</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">rdelay</td>
-			<td width="188">?delay ms</td>
-			<td width="166">1000</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">damage 2</td>
-			<td width="188">?amount of damage</td>
-			<td width="166"><font face="Courier New" size="2">35, 35</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">speed 2</td>
-			<td width="188">Speed of the projectile effect</td>
-			<td width="166"><font face="Courier New" size="2">2500, 2500</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">power</td>
-			<td width="188">?</td>
-			<td width="166">0</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">time 2</td>
-			<td width="188">?</td>
-			<td width="166"><font face="Courier New" size="2">2000, 2000 </font>
-			</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">delay</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">explode</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">rays</td>
-			<td width="188">?vis fx </td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">spread</td>
-			<td width="188">?vis fx</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">zdiv</td>
-			<td width="188">?vis fx </td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">collide</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">radial</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84"><b>bool: </b></td>
-			<td width="106">taper</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">(Yes or No)</td>
-			<td width="106">extinguish,</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">burns,</td>
-			<td width="188">?vis fx of burn at hit site</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">follows</td>
-			<td width="188">?tracking</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">reloads</td>
-			<td width="188">?Self reloads</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">zooms</td>
-			<td width="188">obv</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">fullauto</td>
-			<td width="188">?Self reloads</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">thrown</td>
-			<td width="188">Is it thrown?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84"><b>float:</b> </td>
-			<td width="106">elasticity</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-			,&nbsp; ,&nbsp; ,&nbsp; ,&nbsp; ,&nbsp; ;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">reflectivity</td>
-			<td width="188">?vis fx or richochet</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">relativity</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">waterfric,</td>
-			<td width="188">effect of water on speed</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">weight,</td>
-			<td width="188">?</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">partsize</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">partlen</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">kickpush</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">hitpush</td>
-			<td width="188">&nbsp;</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">maxdist</td>
-			<td width="188">?range</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">halo</td>
-			<td width="188">?vis fx</td>
-			<td width="166">&nbsp;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84"><b>const char:</b></td>
-			<td width="106">name</td>
-			<td width="188">?name that appears in game</td>
-			<td width="166"><font face="Courier New" size="2">&quot;pistol&quot;</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">text</td>
-			<td width="188">?desc</td>
-			<td width="166"><font face="Courier New" size="2">&quot;\fa&quot;</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">item</td>
-			<td width="188">Path to item (whats that?)</td>
-			<td width="166"><font face="Courier New" size="2">
-			&quot;weapons/pistol/item&quot;</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">vwep</td>
-			<td width="188">Path to model used</td>
-			<td width="166"><font face="Courier New" size="2">&quot;weapons/pistol/vwep&quot;</font></td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">proj</td>
-			<td width="188">?</td>
-			<td width="166">&quot;&quot;</td>
-			<td width="222">&nbsp;</td>
-		</tr>
-		<tr>
-			<td width="84">&nbsp;</td>
-			<td width="106">&nbsp;</td>
-			<td width="188">&nbsp;</td>
-			<td colspan="2"><font face="Courier New" size="2"><br>
-			10, 10, { 1, 1 }, { 100, 200, }, 1000, { 35, 35 }, { 2500, 2500 }, 
-			0, { 2000, 2000 },<br>
-			0, { 0, 0 }, { 1, 1 }, { 1, 1 }, { 1, 1 },<br>
-			{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, 
-			IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },<br>
-			{ false, false }, { false, false }, { false, false, }, { true, true 
-			}, true, false, { false, true }, { false, false },<br>
-			{ 0, 0 }, { 0, 0 }, { 0.05f, 0.05f }, { 2, 2 }, { 0, 0 }, { 0.5f, 
-			0.5f }, { 10, 10 },<br>
-			{ 2, 2 }, { 150, 150 }, { 600, 600 }, 4,</font></td>
-		</tr>
-	</table>
-</div>
-<p><br>
-So we should be able to now mod the parameters of a weapon, </p><hr>
-<p><font face="Courier New" size="2"><b>struct weaptypes</b><br>
-{<br>
-int info, anim, colour, sound, esound, fsound, rsound,<br>
-add, max, sub[2], adelay[2], rdelay, damage[2], speed[2], power, time[2],<br>
-delay, explode[2], rays[2], spread[2], zdiv[2],<br>
-collide[2], radial[2];<br>
-bool taper[2], extinguish[2], burns[2], follows[2], reloads, zooms, fullauto[2], 
-thrown[2];<br>
-float elasticity[2], reflectivity[2], relativity[2], waterfric[2], weight[2], 
-partsize[2], partlen[2],<br>
-kickpush[2], hitpush[2], maxdist[2], halo;<br>
-const char<br>
-*name, *text, *item, *vwep, *proj;<br>
-};</font></p>
-<p><font face="Courier New" size="2"><b>Actual Weapons</b><br>
-<br>
-WEAP_PISTOL, ANIM_PISTOL, 0x888888, S_PISTOL, S_BZAP, S_WHIZZ, -1,<br>
-10, 10, { 1, 1 }, { 100, 200, }, 1000, { 35, 35 }, { 2500, 2500 }, 0, { 2000, 
-2000 },<br>
-0, { 0, 0 }, { 1, 1 }, { 1, 1 }, { 1, 1 },<br>
-{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { true, true }, true, 
-false, { false, true }, { false, false },<br>
-{ 0, 0 }, { 0, 0 }, { 0.05f, 0.05f }, { 2, 2 }, { 0, 0 }, { 0.5f, 0.5f }, { 10, 
-10 },<br>
-{ 2, 2 }, { 150, 150 }, { 600, 600 }, 4,<br>
-&quot;pistol&quot;, &quot;\fa&quot;, &quot;weapons/pistol/item&quot;, &quot;weapons/pistol/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_SHOTGUN, ANIM_SHOTGUN, 0xFFFF22, S_SHOTGUN, S_BZAP, S_WHIZZ, S_RICOCHET,<br>
-1, 8, { 1, 2 }, { 500, 750 }, 1000, { 15, 10 }, { 2500, 2000 }, 0, { 1000, 1000 
-},<br>
-0, { 0, 0 }, { 20, 40 }, { 35, 25 }, { 1, 2 },<br>
-{ BOUNCE_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_OWNER, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { true, true }, true, 
-false, { false, false }, { false, false },<br>
-{ 0.5f, 0.35f }, { 50, 50 }, { 0.05f, 0.05f }, { 2, 2 }, { 25, 25 }, { 0.75f, 
-0.75f },{ 50, 50 },<br>
-{ 15, 15 }, { 20, 40 }, { 80, 200 }, 6,<br>
-&quot;shotgun&quot;, &quot;\fy&quot;, &quot;weapons/shotgun/item&quot;, &quot;weapons/shotgun/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_SMG, ANIM_SMG, 0xFF8822, S_SMG, S_BZAP, S_WHIZZ, S_RICOCHET,<br>
-40, 40, { 1, 5 }, { 75, 300 }, 1500, { 25, 15 }, { 2000, 2000 }, 0, { 1000, 1000 
-},<br>
-0, { 0, 0 }, { 1, 5 }, { 5, 5 }, { 4, 2 },<br>
-{ BOUNCE_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_OWNER, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { true, true }, true, 
-false, { true, true }, { false, false },<br>
-{ 0.75f, 0.5f }, { 30, 30 }, { 0.05f, 0.05f }, { 2, 2 }, { 0, 0 }, { 0.5f, 0.5f 
-}, { 40, 40 },<br>
-{ 0.5f, 3 }, { 100, 120 }, { 200, 300 }, 5,<br>
-&quot;smg&quot;, &quot;\fo&quot;, &quot;weapons/smg/item&quot;, &quot;weapons/smg/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_FLAMER, ANIM_FLAMER, 0xFF2222, S_FLAMER, S_BURN, S_BURNING, -1,<br>
-50, 50, { 1, 5 }, { 100, 750 }, 2000, { 6, 2 }, { 150, 200 }, 0, { 400, 600 },<br>
-0, { 24, 32}, { 1, 5 }, { 40, 15 }, { 2, 2 },<br>
-{ BOUNCE_GEOM, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER }, { 1, 2 },<br>
-{ false, false }, { true, true }, { true, true, }, { true, true }, true, false, 
-{ true, true }, { false, false },<br>
-{ 0.15f, 0.f }, { 45, 0 }, { 0.75f, 0.5f }, { 1, 1 }, { -300, 50 }, { 24, 32 }, 
-{ 0, 0 },<br>
-{ 0.25f, 1 }, { 20, 40 }, { 50, 100 }, 7,<br>
-&quot;flamer&quot;, &quot;\fr&quot;, &quot;weapons/flamer/item&quot;, &quot;weapons/flamer/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_PLASMA, ANIM_PLASMA, 0x22FFFF, S_PLASMA, S_ENERGY, S_HUM, -1,<br>
-20, 20, { 1, 20 }, { 500, 2000 }, 3000, { 20, 25 }, { 1500, 35 }, 0, { 1000, 
-5000 },<br>
-0, { 20, 48 }, { 1, 1 }, { 5, 5 }, { 0, 0 },<br>
-{ IMPACT_GEOM|IMPACT_PLAYER, IMPACT_GEOM|COLLIDE_STICK }, { 2, 2 },<br>
-{ true, true }, { true, false }, { false, false, }, { true, true }, true, false, 
-{ true, true }, { false, false },<br>
-{ 0, 0 }, { 0, 0 }, { 0.125f, 0.175f }, { 1, 1 }, { 0, 0 }, { 18, 42 }, { 0, 0 
-},<br>
-{ 3, 6 }, { 100, 200 }, { 400, 125 }, 5,<br>
-&quot;plasma&quot;, &quot;\fc&quot;, &quot;weapons/plasma/item&quot;, &quot;weapons/plasma/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_RIFLE, ANIM_RIFLE, 0xAA66FF, S_RIFLE, S_ENERGY, S_BZZT, -1,<br>
-5, 5, { 1, 1 }, { 500, 1000 }, 2000, { 50, 200 }, { 4000, 40000 }, 0, { 5000, 
-5000 },<br>
-0, { 24, 0 }, { 1, 1 }, { 5, 0 }, { 10, 0 },<br>
-{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_CONT }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { false, false }, true, 
-true, { false, false }, { false, false },<br>
-{ 0, 0 }, { 0, 0 }, { 1, 0 }, { 2, 2 }, { 0, 0 }, { 0.65f, 1.5f }, { 1024, 4096 
-},<br>
-{ 5, 0 }, { 200, 600 }, { 0, 0 }, 7,<br>
-&quot;rifle&quot;, &quot;\fv&quot;, &quot;weapons/rifle/item&quot;, &quot;weapons/rifle/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_GRENADE, ANIM_GRENADE, 0x22FF22, S_GRENADE, S_EXPLODE, S_BEEP, S_TINK,<br>
-1, 2, { 1, 1 }, { 1500, 1500 }, 6000, { 300, 300 }, { 225, 225 }, 3000, { 3000, 
-3000 },<br>
-100, { 68, 68 }, { 1, 1 }, { 0, 0 }, { 0, 0 },<br>
-{ BOUNCE_GEOM|BOUNCE_PLAYER|COLLIDE_OWNER, IMPACT_GEOM|COLLIDE_STICK }, { 0, 0 
-},<br>
-{ false, false }, { false, false }, { true, true, }, { true, true }, false, 
-false, { false, false }, { true, true },<br>
-{ 0.5f, 0 }, { 0, 0 }, { 1, 1 }, { 2, 2 }, { 78, 78 }, { 2, 2 }, { 0, 0 },<br>
-{ 5, 5 }, { 1000, 750 }, { 300, 300 }, 3,<br>
-&quot;grenade&quot;, &quot;\fg&quot;, &quot;weapons/grenade/item&quot;, &quot;weapons/grenade/vwep&quot;, 
-&quot;projectiles/grenade&quot;<br>
-},<br>
-{<br>
-WEAP_INSTA, ANIM_RIFLE, 0xAA66FF, S_RIFLE, S_ENERGY, S_BZZT, -1,<br>
-5, 5, { 1, 1 }, { 500, 1000 }, 2000, { 50, 200 }, { 10000, 40000 }, 0, { 5000, 
-5000 },<br>
-0, { 0, 0 }, { 1, 1 }, { 5, 0 }, { 10, 0 },<br>
-{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_CONT }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { false, false }, true, 
-true, { false, false }, { false, false },<br>
-{ 0, 0 }, { 0, 0 }, { 1, 0 }, { 2, 2 }, { 0, 0 }, { 0.65f, 1.5f }, { 1024, 4096 
-},<br>
-{ 5, 0 }, { 300, 600 }, { 0, 0 }, 7,<br>
-&quot;rifle&quot;, &quot;\fv&quot;, &quot;weapons/rifle/item&quot;, &quot;weapons/rifle/vwep&quot;, &quot;&quot;<br>
-},<br>
-{<br>
-WEAP_GIBS, ANIM_GRENADE, 0x660000, S_SPLOSH, S_SPLAT, S_WHIRR, S_SPLAT,<br>
-1, 1, { 1, 1 }, { 500, 500 }, 500, { 25, 25 }, { 500, 500 }, 0, { 1000, 1000 },<br>
-100, { 0, 0 }, { 1, 1 }, { 0, 0 }, { 0, 0 },<br>
-{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER, 
-IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER }, { 0, 0 },<br>
-{ false, false }, { false, false }, { false, false, }, { true, true }, true, 
-false, { false, false }, { true, true },<br>
-{ 0.35f, 0.35f }, { 0, 0 }, { 1, 1 }, { 2, 2 }, { 35, 35 }, { 2, 2 }, { 0, 0 },<br>
-{ 5, 5 }, { 100, 100 }, { 500, 500 }, 4,<br>
-&quot;gibs&quot;, &quot;\fw&quot;, &quot;gibc&quot;, &quot;gibc&quot;, &quot;gibc&quot;<br>
-},<br>
-};<br>
-#else<br>
-extern weaptypes weaptype[];<br>
-#define FIRECOLOURS 8<br>
-const int firecols[FIRECOLOURS] = { 0xFF5808, 0x981808, 0x782808, 0x481808, 
-0x983818, 0x601808, 0xFF1808, 0x381808 };<br>
-#endif<br>
-<br>
-&nbsp;</font></p>
-<p><font face="Courier New" size="2"><b>Hit Effects &amp; Behavoirs</b><br>
-{<br>
-HIT_NONE = 0, HIT_ALT = 1&lt;&lt;0, HIT_LEGS = 1&lt;&lt;1, HIT_TORSO = 1&lt;&lt;2, HIT_HEAD = 
-1&lt;&lt;3, HIT_FULL = 1&lt;&lt;4, HIT_PROJ = 1&lt;&lt;5,<br>
-HIT_EXPLODE = 1&lt;&lt;6, HIT_BURN = 1&lt;&lt;7, HIT_MELT = 1&lt;&lt;8, HIT_DEATH = 1&lt;&lt;9, 
-HIT_WATER = 1&lt;&lt;10, HIT_WAVE = 1&lt;&lt;11, HIT_SPAWN = 1&lt;&lt;12,<br>
-HIT_LOST = 1&lt;&lt;13, HIT_KILL = 1&lt;&lt;14, HIT_SFLAGS = HIT_KILL<br>
-};<br>
-<br>
-#define hithurts(x) (x&amp;HIT_BURN || x&amp;HIT_EXPLODE || x&amp;HIT_PROJ || x&amp;HIT_MELT || 
-x&amp;HIT_DEATH || x&amp;HIT_WATER)</font></p>
-
+partsize[2], partlen[2],
+kickpush[2], hitpush[2], maxdist[2], halo;
+const char *name, *text, *item, *vwep, *proj;
+}
 }}}
+Thus the weapons consists of the same bunch of data and a model. The model may not contribute to the projectile/fx, which makes it easier with Mechs. I have tabulated it below, hopefully making it a bit more explicable below
+
+Actual Weapons
+
+WEAP_PISTOL, ANIM_PISTOL, 0x888888, S_PISTOL, S_BZAP, S_WHIZZ, -1,
+10, 10, { 1, 1 }, { 100, 200, }, 1000, { 35, 35 }, { 2500, 2500 }, 0, { 2000, 2000 },
+0, { 0, 0 }, { 1, 1 }, { 1, 1 }, { 1, 1 },
+{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { true, true }, true, false, { false, true }, { false, false },
+{ 0, 0 }, { 0, 0 }, { 0.05f, 0.05f }, { 2, 2 }, { 0, 0 }, { 0.5f, 0.5f }, { 10, 10 },
+{ 2, 2 }, { 150, 150 }, { 600, 600 }, 4,
+"pistol", "\fa", "weapons/pistol/item", "weapons/pistol/vwep", ""
+},
+{
+WEAP_SHOTGUN, ANIM_SHOTGUN, 0xFFFF22, S_SHOTGUN, S_BZAP, S_WHIZZ, S_RICOCHET,
+1, 8, { 1, 2 }, { 500, 750 }, 1000, { 15, 10 }, { 2500, 2000 }, 0, { 1000, 1000 },
+0, { 0, 0 }, { 20, 40 }, { 35, 25 }, { 1, 2 },
+{ BOUNCE_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_OWNER, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { true, true }, true, false, { false, false }, { false, false },
+{ 0.5f, 0.35f }, { 50, 50 }, { 0.05f, 0.05f }, { 2, 2 }, { 25, 25 }, { 0.75f, 0.75f },{ 50, 50 },
+{ 15, 15 }, { 20, 40 }, { 80, 200 }, 6,
+"shotgun", "\fy", "weapons/shotgun/item", "weapons/shotgun/vwep", ""
+},
+{
+WEAP_SMG, ANIM_SMG, 0xFF8822, S_SMG, S_BZAP, S_WHIZZ, S_RICOCHET,
+40, 40, { 1, 5 }, { 75, 300 }, 1500, { 25, 15 }, { 2000, 2000 }, 0, { 1000, 1000 },
+0, { 0, 0 }, { 1, 5 }, { 5, 5 }, { 4, 2 },
+{ BOUNCE_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_OWNER, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { true, true }, true, false, { true, true }, { false, false },
+{ 0.75f, 0.5f }, { 30, 30 }, { 0.05f, 0.05f }, { 2, 2 }, { 0, 0 }, { 0.5f, 0.5f }, { 40, 40 },
+{ 0.5f, 3 }, { 100, 120 }, { 200, 300 }, 5,
+"smg", "\fo", "weapons/smg/item", "weapons/smg/vwep", ""
+},
+{
+WEAP_FLAMER, ANIM_FLAMER, 0xFF2222, S_FLAMER, S_BURN, S_BURNING, -1,
+50, 50, { 1, 5 }, { 100, 750 }, 2000, { 6, 2 }, { 150, 200 }, 0, { 400, 600 },
+0, { 24, 32}, { 1, 5 }, { 40, 15 }, { 2, 2 },
+{ BOUNCE_GEOM, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER }, { 1, 2 },
+{ false, false }, { true, true }, { true, true, }, { true, true }, true, false, { true, true }, { false, false },
+{ 0.15f, 0.f }, { 45, 0 }, { 0.75f, 0.5f }, { 1, 1 }, { -300, 50 }, { 24, 32 }, { 0, 0 },
+{ 0.25f, 1 }, { 20, 40 }, { 50, 100 }, 7,
+"flamer", "\fr", "weapons/flamer/item", "weapons/flamer/vwep", ""
+},
+{
+WEAP_PLASMA, ANIM_PLASMA, 0x22FFFF, S_PLASMA, S_ENERGY, S_HUM, -1,
+20, 20, { 1, 20 }, { 500, 2000 }, 3000, { 20, 25 }, { 1500, 35 }, 0, { 1000, 5000 },
+0, { 20, 48 }, { 1, 1 }, { 5, 5 }, { 0, 0 },
+{ IMPACT_GEOM|IMPACT_PLAYER, IMPACT_GEOM|COLLIDE_STICK }, { 2, 2 },
+{ true, true }, { true, false }, { false, false, }, { true, true }, true, false, { true, true }, { false, false },
+{ 0, 0 }, { 0, 0 }, { 0.125f, 0.175f }, { 1, 1 }, { 0, 0 }, { 18, 42 }, { 0, 0 },
+{ 3, 6 }, { 100, 200 }, { 400, 125 }, 5,
+"plasma", "\fc", "weapons/plasma/item", "weapons/plasma/vwep", ""
+},
+{
+WEAP_RIFLE, ANIM_RIFLE, 0xAA66FF, S_RIFLE, S_ENERGY, S_BZZT, -1,
+5, 5, { 1, 1 }, { 500, 1000 }, 2000, { 50, 200 }, { 4000, 40000 }, 0, { 5000, 5000 },
+0, { 24, 0 }, { 1, 1 }, { 5, 0 }, { 10, 0 },
+{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_CONT }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { false, false }, true, true, { false, false }, { false, false },
+{ 0, 0 }, { 0, 0 }, { 1, 0 }, { 2, 2 }, { 0, 0 }, { 0.65f, 1.5f }, { 1024, 4096 },
+{ 5, 0 }, { 200, 600 }, { 0, 0 }, 7,
+"rifle", "\fv", "weapons/rifle/item", "weapons/rifle/vwep", ""
+},
+{
+WEAP_GRENADE, ANIM_GRENADE, 0x22FF22, S_GRENADE, S_EXPLODE, S_BEEP, S_TINK,
+1, 2, { 1, 1 }, { 1500, 1500 }, 6000, { 300, 300 }, { 225, 225 }, 3000, { 3000, 3000 },
+100, { 68, 68 }, { 1, 1 }, { 0, 0 }, { 0, 0 },
+{ BOUNCE_GEOM|BOUNCE_PLAYER|COLLIDE_OWNER, IMPACT_GEOM|COLLIDE_STICK }, { 0, 0 },
+{ false, false }, { false, false }, { true, true, }, { true, true }, false, false, { false, false }, { true, true },
+{ 0.5f, 0 }, { 0, 0 }, { 1, 1 }, { 2, 2 }, { 78, 78 }, { 2, 2 }, { 0, 0 },
+{ 5, 5 }, { 1000, 750 }, { 300, 300 }, 3,
+"grenade", "\fg", "weapons/grenade/item", "weapons/grenade/vwep", "projectiles/grenade"
+},
+{
+WEAP_INSTA, ANIM_RIFLE, 0xAA66FF, S_RIFLE, S_ENERGY, S_BZZT, -1,
+5, 5, { 1, 1 }, { 500, 1000 }, 2000, { 50, 200 }, { 10000, 40000 }, 0, { 5000, 5000 },
+0, { 0, 0 }, { 1, 1 }, { 5, 0 }, { 10, 0 },
+{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_TRACE|COLLIDE_CONT }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { false, false }, true, true, { false, false }, { false, false },
+{ 0, 0 }, { 0, 0 }, { 1, 0 }, { 2, 2 }, { 0, 0 }, { 0.65f, 1.5f }, { 1024, 4096 },
+{ 5, 0 }, { 300, 600 }, { 0, 0 }, 7,
+"rifle", "\fv", "weapons/rifle/item", "weapons/rifle/vwep", ""
+},
+{
+WEAP_GIBS, ANIM_GRENADE, 0x660000, S_SPLOSH, S_SPLAT, S_WHIRR, S_SPLAT,
+1, 1, { 1, 1 }, { 500, 500 }, 500, { 25, 25 }, { 500, 500 }, 0, { 1000, 1000 },
+100, { 0, 0 }, { 1, 1 }, { 0, 0 }, { 0, 0 },
+{ IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER, IMPACT_GEOM|IMPACT_PLAYER|COLLIDE_OWNER }, { 0, 0 },
+{ false, false }, { false, false }, { false, false, }, { true, true }, true, false, { false, false }, { true, true },
+{ 0.35f, 0.35f }, { 0, 0 }, { 1, 1 }, { 2, 2 }, { 35, 35 }, { 2, 2 }, { 0, 0 },
+{ 5, 5 }, { 100, 100 }, { 500, 500 }, 4,
+"gibs", "\fw", "gibc", "gibc", "gibc"
+},
+};
+#else
+extern weaptypes weaptype[];
+#define FIRECOLOURS 8
+const int firecols[FIRECOLOURS] = { 0xFF5808, 0x981808, 0x782808, 0x481808, 0x983818, 0x601808, 0xFF1808, 0x381808 };
+#endif
+
+
+*Hit Effects & Behavoirs*
+{
+HIT_NONE = 0, HIT_ALT = 1<<0, HIT_LEGS = 1<<1, HIT_TORSO = 1<<2, HIT_HEAD = 1<<3, HIT_FULL = 1<<4, HIT_PROJ = 1<<5,
+HIT_EXPLODE = 1<<6, HIT_BURN = 1<<7, HIT_MELT = 1<<8, HIT_DEATH = 1<<9, HIT_WATER = 1<<10, HIT_WAVE = 1<<11, HIT_SPAWN = 1<<12,
+HIT_LOST = 1<<13, HIT_KILL = 1<<14, HIT_SFLAGS = HIT_KILL
+};
+
+*hithurts*(x&HIT_BURN || x&HIT_EXPLODE || x&HIT_PROJ || x&HIT_MELT || x&HIT_DEATH || x&HIT_WATER)
