@@ -2,7 +2,7 @@
 #labels Featured,Phase-Requirements,Phase-Implementation
 *Mission Objective: Reproduce MA1 online game play using the Cube Engine*
 ==Step 1 - Proof of concept - Ver 0.1 3 months==
-Get a mech model into current maps, as a basic a proof of concept. Reskin the GUI to make it more Mech like, including radar Set up the 'tool chains' for code, models, maps and graphics. Mod as much as possible with the config. See more on the [Phase1] page.
+Get a mech model into current maps, as a basic a proof of concept. Reskin the GUI to make it more Mech like, Set up the 'tool chains' for code, models, maps and graphics. Mod as much as possible with the config. Learn the engine. Work out key concepts needed eg mech classs, heat cycle etc See more on the [Phase1] page.
 
 See updates and progress at [Phase1]
 
