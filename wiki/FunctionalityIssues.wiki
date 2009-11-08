@@ -15,4 +15,4 @@ The engine offers a bit more than MA uses. So this is what's in and what's out.
   *  Add Controller support
   *  Mech behaviors - try to reproduce all 
   *  Balance mechs better - Probably because of forced weapon changes 
-  *  Destructible Terrain see
+  *  Destructible Terrain see [DestructibleTerrain]
