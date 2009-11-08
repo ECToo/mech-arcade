@@ -1,14 +1,14 @@
 #summary Keep up tp date on the latest engine
 #labels Phase-Design
 === Blood Frontier or Sauerbraten?===
-Blood Frontier is very much half done, so the plan for the moment:
+Blood Frontier is very much half done, so the plan for the moment is:
   * investigate both engines.
   * learn how the bits work (fps, bots, ai, online etc).
   * look at the SB mods and see if any can help.
   * define needs for engine (mech models, mech player type: features etc).
   * try a few mods to the SB engine, just for fun.
   * produce a piggyback program for SB - see below
-
+  * work on models and toolchain
 === Blood Frontier Engine 0.80 Beta===
 This is the 'Beta' release from Feb 09, which was a pretty tight piece of work. So far all our experiments have been on this version. This has been very stable but I have found a many things not implemented. I have run into a few problems using the dev releases.
 Two of the major things missing from BF080 that where in Sauerbraten:
@@ -21,13 +21,12 @@ There are a few new gametypes. One is called Story. Your bots follow you round, 
 
 I have recompiled it OK, but it is a bit buggy.  
 Lastest dev releases: http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfrontier/
-
 === Sauerpig: piggyback program for sauerbraten===
-
   * develop as a test of code chain, versioning and =of the principle
   * allows us to continue code development and design while waiting for BF to settle
   * will not affect preexisiting SB install
   * runs piggyback without affecting SB set up ie reads different config files, hud graphics etc
   * will still be able to run SB content
   * only tweaks to FPS gameplay (better ai) will leave it compatible with SB online
+  * finish by end of november 2009
   
