@@ -13,6 +13,7 @@ The engine offers a bit more than MA uses. So this is what's in and what's out.
   *  Alpha Strike -  Probably Not
   *  Reduce weapon types  Probably forced too. 
   *  Add Controller support
-  *  Mech behaviors - try to reproduce all 
+  *  Mech behaviors - try to reproduce all
+  *  Engine changes neede to support thye mech gameplay. [ExploringEngine] 
   *  Balance mechs better - Probably because of forced weapon changes 
   *  Destructible Terrain see [DestructibleTerrain]
