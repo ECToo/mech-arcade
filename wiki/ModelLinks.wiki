@@ -1,21 +1,5 @@
 #labels Featured
-<html>
-
-<head>
-<meta http-equiv="Content-Language" content="en-us">
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<title>Model Making Resources</title>
-<style>
-<!--
-  .rbMain { background-color: #FFF; margin: auto; }
-  .rbMain .rbC { margin: 0 10px; }
-
--->
-</style>
-</head>
-
 <body bgcolor="#000000">
-
 <div align="center">
 	<table border="0" width="800" id="table1" bgcolor="#FFFFFF">
 		<tr>
@@ -1702,7 +1686,3 @@ Tutorials</a></font></h3>
 		</tr>
 	</table>
 </div>
-
-</body>
-
-</html>
