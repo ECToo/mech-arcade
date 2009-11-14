@@ -32,11 +32,11 @@ Todo next:
   *  find map makers
 ===  5. Model & Model Tool Chain === 
 Failed to be able to import/export model into Blender, unable to install 3DS Max on W7 though with other tools I have been able to view and edit older md2 models. Status is therefore:  Non Functional. For the moment I will: 
-  *  work with md2 or 3 files. Can they do the job?
-  *  find tools to work with these files - or am I wasting my time
-  *  think about how to implement heat and health into models. 
-  *  think about weapons (most md2) - see here
-  *  think about destructible terrain
+  *  work with md2 or 3 files. _NOTE: MD2 can do static models and non rotating animated, MD3 can do rotation (using multiple meshes)_
+  *  find tools to work with these files - _NOTE: Misfit and Milkshape do MD2/3_ 
+  *  think about how to implement heat and health into models. - see[Heat]
+  *  think about weapons (most md2) - see [Weapons] 
+  *  think about destructible terrain - see [DestructibleTerrain]
   *  find modellers!!! (maybe purchase/competion)
 http://mechbay.teamxbow.org/game/start_screen_atlas.jpg
 === 6. GUI, Graphics & Graphics Tool Chain === 
