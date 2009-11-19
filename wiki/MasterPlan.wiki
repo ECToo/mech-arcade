@@ -3,10 +3,8 @@
 *Mission Objective: Reproduce MA1 online game play using the Cube Engine*
 ==Step 1 - Proof of concept -  3 months==
 Get a mech model into current maps, as a basic a proof of concept. Reskin the GUI to make it more Mech like, Set up the [TooChains 'tool chains'] for code, models, maps and graphics. Mod as much as possible with the config. Learn the [ExploringEngine engine]. Work out key concepts eg: [MechClass mech classs], [Heat heat cycle], [MechModelRequirement Game model requirements], [Weapons] changes.
-
 See updates and progress at [Phase1]at end we have Ver 0.1 and decide if we progress.
-
-==Step 2 - Get the old Mechassault feel - Ver 0.2 6 months==
+==Step 2 - Start to get the old Mechassault feel - Ver 0.2 6 months==
   * Add controller support 
   * heat management - definitely need significant additions to the engine. [Heat] 
   * Develop the mech model into a 'reference mech'. 2 actually, one for chicken walkers and one for human style gait. Include all base behaviors (walking, running, falling, exploding etc). 
