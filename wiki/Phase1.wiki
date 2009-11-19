@@ -2,9 +2,9 @@
 #labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured,Phase1
 == Parts of Phase 1 ==
 === 1. Tool Chain ===
-- about 75% done. See [ToolChains], models remain the greatest problem, see 6 below;
+- about 75% done. See [ToolChains], models, in particular md5, remain the greatest problem, see 6 below;
 === 2. Configuration and Scripting ===
-- many options to configure and script, for example some easy changes to mimic Mech behavoir  eg:
+BF offers many options to configure and script, for example some easy changes to mimic Mech behavoir  eg:
   *  kamikaze -  set to 3 makes a mech like explosion
   *  maxhealth - Inceased global health to 500 gives a much mech like game play 
   *  jumpscale - set to zero this stops them jumping around like grasshoppers
@@ -14,6 +14,7 @@ To give a mechassault style third person perspective you can use these commands 
   *  thirdpersondist 40 Camera distance from the player model, 
   *  thirdpersonshift 0
   *  thirdpersonangle 45
+  *  -Note: SB does not have these commands. Need to change engine to adjust 3rd person
 === 3. Compiling, C and the Engine ===
   *  Installed code::blocks and MWGNU compiler *OK*
   *  Recompiled engine with minor changes *OK*
@@ -26,14 +27,15 @@ Todo:
 === 4. Maps & Map Tool Chain === 
   *  Basic map editing *OK*
   *  Status:  Functional
+ *  -Note: I will never be a map maker. Tom will try.
 Todo next: 
   *  See how to import/export .obj files
   *  Gain proficency in map making
-  *  find map makers
+  *  find map makers - try commisioniing.
 ===  5. Model & Model Tool Chain === 
 Failed to be able to import/export model into Blender, unable to install 3DS Max on W7 though with other tools I have been able to view and edit older md2 models. Status is therefore:  Non Functional. For the moment I will: 
   *  work with md2 or 3 files. _NOTE: MD2 can do static models and non rotating animated, MD3 can do rotation (using multiple meshes)_
-  *  find tools to work with these files - _NOTE: Misfit and Milkshape do MD2/3_ 
+  *  find tools to work with these files -Note: Misfit and Milkshape do MD2/3_ 
   *  think about how to implement heat and health into models. - see [Heat]
   *  think about weapons (most md2) - see [Weapons] 
   *  think about destructible terrain - see [DestructibleTerrain]
