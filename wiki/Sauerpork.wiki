@@ -1,20 +1,19 @@
-#summary Sauerpork is a modded Sauerbraten(SB) for piggyback installation
-
+#summary Sauerpork is a spinoff from MekArcade that is modded Sauerbraten(SB) for piggyback installation
+*Windows version for release in December 2009, Linux version early 2010, Mac version, whenever!*
 ==== Why Sauerpork? ====
-  * we developed this as a test, a test of the code chain, versioning and of the principle
-  * allows us to continue code development and design while waiting for BF to settle
-  * keeps the tam moving forward and gives us a win
+  * we developed this as a test during the proof of concept phase. We wanted to test the code chain, versioning and of the principle
+  * allows us to continue code development and design while waiting for BF to settle, keeps the team moving forward and gives us a win
+  * we released it because others might find it fun and useful
+  * the name was originally SauerPig, the pig bit came from the fact it 'piggybacked' over a  Sauerbraten install. Pork sounded a bit better, so we cooked up SauerPork.
 ==== Features ====
   * will not affect preexisiting SB install
   * runs piggyback without affecting SB set up ie reads different config files
   * will still be able to run SB content
   * only tweaks to FPS gameplay (better ai) will leave it compatible with SB online so you can still use the Sauerbraten servers
-  * had more scifi models
+  * had more scifi style models (battle armor, droids, mechs) rather than the Hellpig and its cronies
   * improved GUI
-  * Windows version for release in December 2009, Linux version early 2010, Mac version, whenever!
 ==== Installation ==== 
   * Download Sauerbraten
   * Install Sauerbraten, note where it is installed
   * Download Sauerpork and unzip it directly into the Sauerbraten root folder.
   * Run sauerpig.bat
-
