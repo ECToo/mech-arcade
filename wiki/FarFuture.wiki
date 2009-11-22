@@ -1,26 +1,19 @@
 #summary Ideas for the Future V2.0+.
-*Security*
-
-This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/ (read here] and [http://cheatengine.org/ here) ]and the fact the engine is OS means there can be no security. Or does it? Read this post [TrustedCommunities Trusted Communities], they may provide one way to provide a secure environment.
---- 
-*Other Vehicles*
-
-To accomadate other vehicles the main difference between them would be with respect to locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped vehicles. Perhaps a generic playervehicle or player type.
----
-*More Complex Gameplay*
-Mechassault 2 added extra vehicles (VTOL, tank, battle armor) and more complex gameplay (neuro-hacking, VTOL transport) but it didn't all work.  
+====Security====
+This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/ (read here] and [http://cheatengine.org/ here) ]and the fact the engine is OS means there can be no security. Or does it? Read this post [TrustedCommunities Trusted Communities], they may provide one way to provide a secure environment. Players may need to exchange keys. 
+====Other Vehicles====
+To accomadate other vehicles the main difference between them would be with respect to locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped vehicles. Perhaps a generic playervehicle or playertype could be developed.
+====More Complex Gameplay====
+Mechassault 2 added extra vehicles (VTOL, tank, battle armor) and more complex gameplay (neuro-hacking, VTOL transport) but it didn't all work.   
   * different player/vehicle types/class
   * remote control of droids/bots
-  * hacking
-  * cooperative/sqaud campaigns eg like Halo _Note: coming in BF_
----
-*Mech Customization*
+  * hacking _Note: like neurohacking in MA2 but needs to be different_
+  * cooperative/sqaud SP campaigns eg like Halo _Note: coming in the BF engine_
+====Mech Customization====
 Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming; for both the player and especially the developer. I'll leave it on the table.
----
-*Galactic Conquest*
+====Galactic Conquest====
 Fight across the galaxy in a persisting universe!. This was a nice idea that didn't work very well in Mechassault 2. This could perhaps be implemented rather simply, at least from the point of view of the cube engine. You could have paticular servers or hosts that host Conquest Games. The connections could be hard coded into a menu or a lobby like map within the game. These conquest games would run at regular times and people would join, if the room doesn't fill with people, then bots would fill the remaining slots. The work of maintaining the state of the galaxy, scheduling matches, results and clan management would all be done on the Conquest server. Some means of passing scores from the cube engine to the Conquest server would be needed. Maybe the IRC Client could be used. 
----  
-*Robotic Warfare*
+====Robotic Warfare====
 I like the idea of using the engine to run bot based simulations.  
   * The engine already does bots  
   * There may not need to be any change to game play 
