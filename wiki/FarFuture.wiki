@@ -9,6 +9,10 @@ Mechassault 2 added extra vehicles (VTOL, tank, battle armor) and more complex g
   * remote control of droids/bots
   * hacking _Note: like neurohacking in MA2 but needs to be different_
   * cooperative/sqaud SP campaigns eg like Halo _Note: coming in the BF engine_.
+====New Engine Functionality====
+  * cut scenes
+  * complex campaigns
+  * interface -  read html, data from database  
 ====Mech Customization====
 Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming; for both the player and especially the developer. I'll leave it on the table.
 ====Galactic Conquest====
