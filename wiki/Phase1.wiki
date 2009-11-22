@@ -1,6 +1,7 @@
 #summary Phase 1 is the Proof of Concept Phase
 #labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured,Phase1
 == Parts of Phase 1 ==
+Nov 20th 2009 : Sauerpork is a spinoff using a slightly modified the Sauerbraten Engine. See [Sauerpork]
 === 1. Tool Chain ===
 - about 75% done. See [ToolChains], models, in particular md5, remain the greatest problem, see 6 below;
 === 2. Configuration and Scripting ===
@@ -49,8 +50,8 @@ http://mechbay.teamxbow.org/game/start_screen_atlas.jpg
   *  Status - Functional 
 === 7. Engine Mods === 
 I was really hoping to avoid any mods, but there will have to be more than I hoped. For phase 1 the only engine mods will be non critical, and a chance to get to grips with C and the tools.:
-  * Controller Mod > have downloaded the old joystick mod. Hopefully a good place to start.
-  * Minor things like names *OK*  
+  * Controller Mod > have downloaded the old joystick mod. SDL library comes with joytick lib, so this may be able to be used. Hopefully a good place to start.
+  * Alter config file names *OK*  
   * Mech movement -  torso rotation (possibly if I can get a decent mech model working)
 Unfortunately it is clear there will have to be a number of engine chages to give the real mechassault experience. For the moment these are in phase 2 & 3. The following will have to be added to the engine:
    * Heat Management (current temp, heat rate, cool rate, effects on weapons and visibility, see [Heat]. I think I will put this off to later, if at all. 
