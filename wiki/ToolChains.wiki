@@ -2,7 +2,6 @@
 #labels Phase-Implementation,Phase-Design,Phase-Requirements
 This lists the various tool chains TeamXbow are using. If the too chain works and we have beeb able to edit fiiles successfully and use them in cube then 
 
-
 *Maps:* edit in Cube - *OK*
 
 *C Code:*  can edit and compile source with CodeBlox/WinGNU combo - *OK*
@@ -13,4 +12,7 @@ This lists the various tool chains TeamXbow are using. If the too chain works an
 
 *Sound* can edit, convert and alter sound with Audacity - *OK*
 
-*Models* - 'Houstan we have a *PROBLEM*'
+*Models* - 'Houstan we *HAD* a *PROBLEM*' but now it is fixed. Thanks to GMax
+
+
+=I LOVE GMAX=
