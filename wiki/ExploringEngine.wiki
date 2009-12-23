@@ -14,11 +14,21 @@ This is the 'Beta' release from Feb 09, which was a pretty tight piece of work. 
 Two of the major things missing from BF080 that where in Sauerbraten:
 1. playermodel 
 2. Monsters (name for NPC enemy). I am guessing that something will be implemented later to fulfill these roles. Acord discussess the engine [http://www.blackboxbeta.net/blood-frontier-oss here]. 
-===Blood Frontier Engine Engine 0.84 Dev===
-Oct 27, 2009: This has been the first Dev release to tempt me. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. Looks like the carbine has dumbed down to a pistol. There are a couple more outdoors maps, that look pretty good (no, some are really beautiful and a credit to the mappers and the engine) and suggest an open style more suitable for mechs. 
+===Blood Frontier Engine Engine 0.85 BETA 2===
+December, 2009: Top release. Radar working properly, enhanced weapons. Indeed for someone wanting to do a mech shooter, the upgraded weapon effects are beoming very close to those needed. The laser rifle has a real beam now, the plasma gun has a charged up ball effect like a PPC. Looks like the carbine has dumbed down to a pistol. There are a couple more outdoors maps, that look pretty good (no, some are really beautiful and a credit to the mappers and the engine) and suggest an open style more suitable for mechs. 
 
-There are a few new gametypes. One is called Story. Your bots follow you round, I am guessing its like Halo, SP with your troop of Bots. One of them should be called Johnson. Nothing happens on the maps at the moment, guess they need the stuff for the SP campaign added. The other is arena, which I have not tried. I have recompiled it OK, but it is a bit buggy.  
+There are a few new gametypes. One is called Story. Your bots follow you round, I am guessing its like Halo, SP with your troop of Bots. One of them should be called Johnson. There is one map showing how to do multiple level adversaries. The other is arena, which I have not tried. I have recompiled it OK.
+
+This is going to be out BF base from Dec 2009  
 Lastest dev releases: http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfrontier/
+=== SauerMod: The parent of Blood Frontier===
+  * I only just discovered this old release that grew into BF
+  * includes joystick support
+  * Uses a preexisiting SB install
+=== Sauerpork: piggyback program for sauerbraten===
+  * develop as a test of code chain, versioning and =of the principle
+  * allows us to continue code development and design while waiting for BF to settle
+  * will not affect preexisiting SB install
 === Sauerpork: piggyback program for sauerbraten===
   * develop as a test of code chain, versioning and =of the principle
   * allows us to continue code development and design while waiting for BF to settle
@@ -26,4 +36,4 @@ Lastest dev releases: http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfront
   * runs piggyback without affecting SB set up ie reads different config files, hud graphics etc
   * will still be able to run SB content
   * only tweaks to FPS gameplay (better ai) will leave it compatible with SB online
-  * finish by end of november 2009 - read more [Sauerpork]  
+  * finish by end of Jan 2010 - read more [Sauerpork]  
