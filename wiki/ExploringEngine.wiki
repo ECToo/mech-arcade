@@ -29,10 +29,6 @@ Lastest dev releases: http://bloodfrontier.svn.sourceforge.net/viewvc/bloodfront
   * develop as a test of code chain, versioning and =of the principle
   * allows us to continue code development and design while waiting for BF to settle
   * will not affect preexisiting SB install
-=== Sauerpork: piggyback program for sauerbraten===
-  * develop as a test of code chain, versioning and =of the principle
-  * allows us to continue code development and design while waiting for BF to settle
-  * will not affect preexisiting SB install
   * runs piggyback without affecting SB set up ie reads different config files, hud graphics etc
   * will still be able to run SB content
   * only tweaks to FPS gameplay (better ai) will leave it compatible with SB online
