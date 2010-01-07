@@ -2,7 +2,7 @@
 #labels Phase-Design,Phase1
 This follows on from the [Heat] page.
 === Developing a Mech Class=== 
-I started with the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] which uses data from Shaow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe. The atributes of a mech from Mechassault 1 are listed below, with some comments:  
+I started with the headings taken from the [http://mechbay.teamxbow.org/simpledb1/mechdata1.php Mechbay Datasheet] which uses data from Shadow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe. The attributes of a mech from Mechassault 1 are listed below, with some comments:  
   *  *Weight (Kg)* = Chassis + armor + weapons + defense + jump jets. Chassis is a fixed weight and includes the unmodifiables like power core, fuel, myomuscles, skeleton, cockpit, life support, sensors, supplies etc. Thus armor, weapons, defense, jump jets 
   *  *Locomotion* - chicken walkers OR 'human' gait NB: could add other types eg VTOL, tank, battle armor, quadraped 
   *  *Armor* - very important.  
