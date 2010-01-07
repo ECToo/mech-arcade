@@ -18,4 +18,5 @@ I started with the headings taken from the [http://mechbay.teamxbow.org/simpledb
 === Why is developing a Mech Class important===
   *  Help with development of the game model 
   *  Provide a framework for the propsed engine mods 
+  *  Provide ideas on how to do a generic vehicle/player class
   *  In the future it will be easier to add functionality with a well sorted out and documented model. That should be enough. 
