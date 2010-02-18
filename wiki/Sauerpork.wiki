@@ -1,5 +1,6 @@
 #summary Sauerpork is a spinoff from MekArcade that is modded Sauerbraten(SB) for piggyback installation
-*Windows version for release in Xmas/New year 2009, Linux version early 2Q 2010, Mac version, whenever!*
+*Windows version for release in 1st Q 2010, Linux version mid 2010, Mac version, whenever!*
+*NOTE: after this we will switch to Blood Frontier engine*
 ==== Why Sauerpork? ====
   * we developed this as a test during the proof of concept phase. We wanted to test the code chain, versioning and the general principle
   * it has allowed us to continue development and design while waiting for BF to settle, and kept the team moving forward and gave us a win
