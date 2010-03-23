@@ -8,7 +8,7 @@ In the beginining I was hopeful of no engine mods and as is often the case, igno
   *  Heat - complex see [Heat] - thinking about dropping this for the moment
   *  Mech Actions: - Torso rotation, Running, Walking, Flying, Gimped,
   *  Mech Damage Fx - impact animation, body visual damage cues, smoke
-  *  Input - A joy stock controller mod does exist, have downloaded and will see if I can adapt it
+  *  Input - A joy stock controller mod does exist, have downloaded and will see if I can adapt it *UPDATE 2010 using JoyToKey to map it - see downloads for s/w and cfg file*
   *  Physics - Cube does basic collision stuff (?more than MA1) and recoil (customizable) so the only thing missing is the 'death from above'. Which can probably be dropped.
 
 == Major Model Changes == 
