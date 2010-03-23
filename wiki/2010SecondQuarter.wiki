@@ -2,14 +2,14 @@
 #labels Phase-Design
 = Using Blood Frontier =
 
-We have been a bit quite on the development front with Xmas, holidays and birthdays. During this time BF 0.85 has been released (called the beta 2). It seems very stable and includes some nice enhancement.
+We have been a bit quiet on the development front with Xmas, holidays and birthdays. During this time BF 0.85 has been released (called the beta 2). It seems very stable and includes some nice enhancements.
 
 Broadly the plan for the next 3 months is: 
 
   #  Recompile thwe BF engine to use different configuration files and few cosmetic differneces - same as sauerpig
   #  Otherwise leave the engine alone
-  #  Work on maps and mech models
-  #  Work out how to alter the player model to accomadate mech behavoirs  
+  #  Work on maps and mech models - Priority to get Mappers/modellers
+  #  Work out how to alter the player model to accomadate mech & vehicle behavoirs   
   #  Implement the game pad using joystick to kbd/mouse mapping - see below
 
 = Using the Gamepad =
