@@ -12,7 +12,10 @@ This lists the various tool chains TeamXbow are using and with links where you c
 
 *Sound* can edit, convert and alter sound (ogg files) with [http://audacity.sourceforge.net/ Audacity] - *OK*
 
-*Models* - 'Houstan we *HAD* a *PROBLEM*' but now it is fixed. Thanks to [http://files.turbosquid.com/Products/L567271/XFM83W83US/gmax12.exe GMax] and some plugins.
+*Models* - 'Houstan we *HAD* a *PROBLEM*' but now it is fixed. 
 
+We have 2 working toolchains, thak fully none of which use Blender. 
 
-=I LOVE GMAX=
+1. GMax - Thanks to [http://files.turbosquid.com/Products/L567271/XFM83W83US/gmax12.exe GMax] and some plugins we were aable to export a madcat to md3
+
+2. Max 2010 - Walter uses an md3 exporter from Max 
