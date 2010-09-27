@@ -2,6 +2,7 @@
 #labels Phase-Requirements,Phase-Implementation,Phase-Design,Featured,Phase1
 == Parts of Phase 1 ==
 Nov 20th 2009 : Sauerpork is a spinoff using a slightly modified the Sauerbraten Engine. See [Sauerpork]
+Sept 2010 - 12 months late but looks like we might have the demo out for this Xmas New Year!
 === 1. Tool Chain ===
 - 100% done. See [ToolChains], models, which were the greatest problem, have been sorted out.
 === 2. Configuration and Scripting ===
