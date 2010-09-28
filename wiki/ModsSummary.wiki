@@ -3,13 +3,14 @@
 == Engine Mods == 
 In the beginining I was hopeful of no engine mods and as is often the case, ignorance is bliss. The more I analyze it the more that needs to be done. There are a many behavoirs and functions that will require significant engine changes, often along with model changes. So many in fact that I am getting the red pen out to perhaps cut a few things off.
  
-  *  Weapons - Changes in the engine would be necessary.  The more you could maintain the original code the better. Given the mech POV, you need the projectile & the fx, not the actual weapon model, so some work may be able to be saved. I had some thoughts about mapping weapons a while ago, which I put up at the mechbay, including names. Visit  [http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm here ] BUT the new weapons in 0.84 are more spectacular and impressive than before. Indeed the rifle looks like a mech laser and the plasma gun charge up releases a very PPC like orb. Very suitable for mechs. So that is some good news.
+ *  3rd Person - with the current functionality I can't get the correct 3rd person view in Saeurbraten. Even red eclipse which implements angle and a few other 
+ *  Weapons - Changes in the engine would be necessary.  The more you could maintain the original code the better. Given the mech POV, you need the projectile & the fx, not the actual weapon model, so some work may be able to be saved. I had some thoughts about mapping weapons a while ago, which I put up at the mechbay, including names. Visit  [http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm here ] BUT the new weapons in 0.84 are more spectacular and impressive than before. Indeed the rifle looks like a mech laser and the plasma gun charge up releases a very PPC like orb. Very suitable for mechs. So that is some good news.
   *  Health pickup after death - the goodies may be able to be managed with the current engine
   *  Heat - complex see [Heat] - thinking about dropping this for the moment
   *  Mech Actions: - Torso rotation, Running, Walking, Flying, Gimped,
   *  Mech Damage Fx - impact animation, body visual damage cues, smoke
   *  Input - A joy stock controller mod does exist, have downloaded and will see if I can adapt it *UPDATE 2010 using JoyToKey to map it - see downloads for s/w and cfg file*
-  *  Physics - Cube does basic collision stuff (?more than MA1) and recoil (customizable) so the only thing missing is the 'death from above'. Which can probably be dropped.
+  *  Physics - Cube does more physics amd collision stuff than MA1 had, inc recoil (customizable) Even'death from above' could probably be faked with a mellee attack
 
 == Major Model Changes == 
 
