@@ -11,7 +11,13 @@ In the beginining I was hopeful of no engine mods and as is often the case, igno
  *  Mech Actions: - Torso rotation is the main new motion to implement *IMPORTANT*
  *  Input - A joy stock controller mod does exist, have downloaded and will see if I can adapt it *UPDATE 2010 using JoyToKey to map it - see downloads for s/w and cfg file* *UPDATE - able to fudge this for demo*
  *  Physics - Cube does more physics amd collision stuff than MA1 had, inc recoil (customizable) Even 'death from above' could probably be faked with a mellee attack *OK*
- *  Use unique config/graphics *OK*
+ *  Use unique config/graphics - uses mek- prefaced config filea and mek_ prefaced gui files *OK*
+
+So for the demo the 2 important things are 
+ # 3rd person view
+ # Torso rotation (model and engine)
+
+All the items marked Mech Class are to be left to phase 2
 
 == Major Model Changes == 
 
