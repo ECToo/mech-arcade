@@ -19,11 +19,6 @@ So for the demo the 2 important things are
 
 All the items marked Mech Class are to be left to phase 2
 
-== Major Model Changes == 
+== Mechclass Changes == 
 
-  *  Damage effects
-  *  Ragdoll behavior at death, needs explosion
-  *  Torso rotation NB MD2 files cant do rotation well because no body pivot, MD3 does
-  *  Flying
-  *  Targeting effects (targeting, tracking, null sig, chaff)
-  *  Invisibility
+This is for pahse 2
