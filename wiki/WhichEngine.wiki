@@ -2,38 +2,40 @@
 #labels Phase-Design,Featured
 = Which Engine =
 
-The 'which engine' issue needs to be sorted out by Xmas, because after that I will have to work on how the model and integrates with the engine and the input devices.  That could be tricky.  . 
+The 'which engine' issue needs to be sorted out by Xmas, because after that I will have to work on how the model and integrates with the engine and the input devices.  That could be tricky. Red Eclipse would require aa lot less mods to replicate MA1 gameplay.  . 
 
 == I want to use Red Eclipse because..... ==
 
   # core breech effect (kamikaze 3)
   # script access to lots of other game variables eg jumpspeed
-  # proper team spawns, 
+  # proper team spawns 
   # sqaud play 
   # jump jets
   # multiplayer triggers (needed for destructible terrain)
   # player class (necc. for implementing mechs properly)
+  # no ammo gameplay 
   # better bot ai
-  # looks better
+  # looks better, very beautiful maps
 
 == I won't use Red Eclipse if.... ==
 
-  # Buggy, unreliable
-  # couldn't compile - had this problem, SDL library was wrong
+  # it is buggy or unreliable
+  # if I couldn't compile my own - had this problem, SDL library was wrong for my compiler
   # can't get md3 player models or can't get md5 mechs made.
  
-== RE test.... ==
+== RE evaluation ==
 
-First looks are very positive. note - The working game model is showing the same ‘firey feet’ 
+First looks are very positive. note - main problem noticed was the player model is showing the same ‘firey feet’ as our stuffed md3 did. Work list for the RE version over november is: 
 
   # Try Mapmodels
   # Try HUD
-  # Try import Maps
-  # Try build Maps
+  # Try importing our current Mech and Mars Maps
+  # Try building Maps - editor is set up bit differently
   # Try triggers
+  # Try a nix compile
   # Learn how the server stuff works 
   # Set up server (sugarman)
   # Mecha models (walter)
   # Testing (tom)
 
-So the show stopper remains the mecha models. Walter is trying an md5 export from Max, and I will continue to investigate the use of md3 AFTER completeing the list above
+So the show stopper remains the mecha models. Walter is trying an md5 export from Max, and I will continue to investigate the use of md3 in RE AFTER completeing the list above
