@@ -1,0 +1,48 @@
+#summary Do we wait for Red Eclipse?
+#labels Phase-Design,Featured
+= Which Engine =
+
+The 'which engine' issue needs to be sorted out by Xmas, because after that I will have to work on how the model and integrates with the engine and the input devices.  That could be tricky.  . 
+
+== I want to use Red Eclipse because..... ==
+
+  #core breech effect (kamikaze 3)
+  #script access to lots of other game variables eg jumpspeed
+  #proper team spawns, 
+  #sqaud play 
+  #jump jets
+  #multiplayer triggers (needed for destructible terrain)
+  #player class (necc. for implementing mechs properly)
+  #better bot ai
+  #looks better
+
+== I won't use Red Eclipse if.... ==
+
+  #Buggy, unreliable
+  #couldn't compile - had this problem, SDL library was wrong
+  #can't get md3 player models or can't get md5 mechs made.
+ 
+== RE test.... ==
+
+First looks are very positive. note - The working game model is showing the same ‘firey feet’ 
+
+
+Try HUD
+
+Try Mapmodels
+
+Try import Maps
+
+Try build Maps
+
+Try triggers
+
+Learn how the server stuff works 
+
+Set up server (sugarman)
+
+Mecha models (walter)
+
+Testing (tom)
+
+So the show stopper remains the mecha models. Walter is trying an md5 export from Max, and I will continue to investigate the use of md3 AFTER completeing the list above
