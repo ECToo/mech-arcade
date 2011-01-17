@@ -1,11 +1,13 @@
 #2011 Sauer or bust
-= We have almost given up on RE =
+== We have almost given up on RE ==
 
 1. Configure MD3 model again and try
 2. MD5 export of mech
 
-= Sauer needs at a minimum =
+== Sauer needs at a minimum ==
 
   * True team spawns
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * Fake player class (just use models)
+  * Do something with weapons and power ups
+  * Finish Maps
+  * Finish Texture set
