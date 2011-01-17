@@ -1,8 +1,8 @@
 #2011 Sauer or bust
 == We have almost given up on RE ==
 
-1. Configure MD3 model again and try
-2. MD5 export of mech
+  * Configure our MD3 mech model again and try it in RE (underway)
+  * Try MD5 export of our mech model from 3DSMax
 
 == Sauer needs at a minimum ==
 
