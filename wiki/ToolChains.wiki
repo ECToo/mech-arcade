@@ -2,6 +2,8 @@
 #labels Phase-Implementation,Phase-Design,Phase-Requirements
 This lists the various tool chains TeamXbow are using and with links where you can download them. Can't make it easier or cheaper than this. 
 
+Windows Tookchaina
+
 *Maps:* edit in directly with the [http://sauerbraten.org/ Cube2] engine - *OK*
 
 *C Code:*  can edit and compile source with [http://www.codeblocks.org/downloads CodeBlox/WinGNU] combo - *OK*
@@ -12,10 +14,10 @@ This lists the various tool chains TeamXbow are using and with links where you c
 
 *Sound* can edit, convert and alter sound (ogg files) with [http://audacity.sourceforge.net/ Audacity] - *OK*
 
-*Models* - 'Houstan we *HAD* a *PROBLEM*' but now it is fixed. 
+*Models* 
 
-We have 2 working toolchains, thak fully none of which use Blender. 
+We have 2 working toolchains, thank fully none of which use Blender. 
 
-1. GMax - Thanks to [http://files.turbosquid.com/Products/L567271/XFM83W83US/gmax12.exe GMax] and some plugins we were aable to export a madcat to md3
+1. GMax - Thanks to [http://files.turbosquid.com/Products/L567271/XFM83W83US/gmax12.exe GMax] and some plugins - md3/5 export and import
 
-2. Max 2010 - Walter uses an md3 exporter from Max 
+2. Max 2010 - Walter uses an md3/5 exporter from Max 
