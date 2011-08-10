@@ -11,7 +11,10 @@ Mechassault 2 added extra vehicles (VTOL, tank, battle armor) and more complex g
   * different player/vehicle types/class LEAGUE PARTLY IMPLEMENTS THIS IN RE 1.1
   * remote control of droids/bots
   * hacking _Note: like neurohacking in MA2 but needs to be different_
-  * cooperative/sqaud SP campaigns IMPLEMENTED IN RE 
+  * cooperative/sqaud SP campaigns IMPLEMENTED IN RE 1.0
+  * Shields, cloaking and other defensive measures
+  * Carry stuff other than flags and bombs
+  * Medic type class/effect - perhaps called Engineer mek 
 ====New Engine Functionality====
   * cut scenes
   * complex campaigns SCRIPTING IN RE CAN DO SOME BUTSTILL CAN'T BLOW STUFF UP
@@ -30,7 +33,3 @@ I like the idea of using the engine to run bot based simulations.
 SOME PROGRESS WITH SITE
 
 Fight your way up the clan! Structured like the old mechwarrior games, the player has to complete a series of operations, which consist of a series of missions. In our implementation the pilots career is going to be managed online, with most of the story elements done online. The pilot will then download the Operation data (maps and any other bits and pieces needed) and play through the missions.
-====Game Play changes====  
-  * Shields, cloaking and other defensive measures
-  * Carry stuff other than flags and bombs
-  * Medic type class/effect - perhaps called Engineer mek 
