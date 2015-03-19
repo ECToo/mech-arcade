@@ -1,0 +1,15 @@
+#2011 Sauer or bust
+## We have almost given up on RE ##
+
+  * Configure our MD3 mech model again and try it in RE(walter underway)
+  * Try MD5 export of our mech model from 3DSMax (walter)
+
+## Sauer needs at a minimum ##
+
+  * True team spawns (cdx)
+  * Fake player class (just use models) (cdx)
+  * Do something with weapons and power ups (cdx/tom)
+  * try to add core breach effect (cdx)
+  * Finish Maps - runway, another (tom), mars
+  * Finish Texture set (cdx)
+  * Finish one mech animation set (walter) and configure (cdx)

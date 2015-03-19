@@ -1,0 +1,32 @@
+### Cheating & open source, revisited by Aardappel on 04/27/2005 ###
+
+As you all know, cheating is a problem for Cube being Open Source. No one likes the current solution of the incompatible binaries, and I am getting to the point where I see the usefulness of having other people continue to work on Cube whenever I don't have the time.. currently that is problematic and would be much easier if the source to the official game could be truely open.
+
+Multiplayer continues to be an important aspect of Cube, so we can't ignore cheating and simply hope that people won't change 1 line of code to enable god mode or permanent octa-damage, because they will (tell me something about human nature and the people on the interweb).
+
+The solution can't come in the form of "cheat protection", this simply isn't possible with the current cube, and even if the entire gameplay code was moved serverside, is still fragile. Don't even suggest it... make sure you understand the nature of the client/server gameplay code before commenting.
+
+The solution for Cube I feel has to be a social one. As you may remember, I designed a solution before:
+http://wouter.fov120.com/rants/trusted_communities.html
+The problem with this particular design is that it is too complex to set up, and too centralized. I would like to come up with a solution that is simpler, less implementation work, and can work with any group of people, centralized or not.
+
+This is the idea I came up with sofar:
+
+Every player that wants to play in a cheat free environment, can use a command in Cube to generate a set of key files. A key file is simply a file of, say, 10000 random bytes. The player then hands out these files to players he trusts... or rather, players he wants to trust him. (why there are multiple files will become clear later).
+
+A server can either be in untrusted mode (default, works as before), or trusted mode. It can be set to trusted mode by the server admin, or voted by the players until the server empties. It will show up in the server browser as trusted.
+
+If a player A & B connect to a trusted server, A looks up B's nickname in his folder of key files. If he finds a corresponding key file, he chooses a few random file offsets and reads the bytes there. It now sends a packet to B asking it for the bytes at those offsets. If B really is B, it can simply read its own keyfile and return the values. A now compares the values, and if they match, it sends a "I trust B" packet to the server. The hud shows which clients you trust, and for each client how many clients trust him in total. You are now sure that B really is who he says he is.
+
+On a trusted server, people that after exchange of trust packets have gained no trust, can be booted from the server automatically. This allows you to play games with trusted people in your community, and have external people unable to be join the game.
+
+asking for random offsets guarantees that untrustworthy clients or even servers never get to sniff keys. "Trust" is evaluated locally and for you only, so can't be spoofed.
+
+The one problem would be handing your key file to someone who later turns out to be untrustworthy. This person could now impersonate you and appear to be you to all your trusted friends. Hence the multiple key files, so you can give a different key file to different people (or groups of people). That way, if the person "goes bad", he can't impersonate you towards your friends, as he doesn't have the keyfile your friends have.
+
+The system is not perfect of course. You can still have 2 cheaters join together and trust eachother. Luckily cheaters hardly ever come in groups, and there are more complicated ways to protect even against this.
+
+The biggest issue is the inconvenience of having to exchange key files, and especially to require new players to find existing players on forums/irc before they can sensibly play. I think it is bearable though, as you only need to do it once, and Cube multiplayer is a fairly closed community. And if servers are by default untrusted, you can give newcomers the benefit of the doubt until they behave suspicious.
+
+
+

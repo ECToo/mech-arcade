@@ -1,0 +1,16 @@
+## Functionality Issues ##
+
+The engine offers a bit more than MA uses. So this is what's in and what's out.
+
+  * POV: ?3rd or 1st or both Probably Both
+  * Jump Jets: will probably need engine and model changes, possibly could be scripted
+  * Jumping: cube does it already. ?turn if off? ?could it be adapted for jump jets
+  * Pilots and Battlearmor - Probably Not
+  * VTOL - Probably Not
+  * Alpha Strike -  Probably Not
+  * Reduce weapon types  Probably forced too.
+  * Add Controller support
+  * Mech behaviors - try to reproduce all. See [MechClass](MechClass.md) and [MechModelRequirement](MechModelRequirement.md)
+  * Engine changes needed to support the mech gameplay. [ExploringEngine](ExploringEngine.md)
+  * Balance mechs better - Probably because of forced weapon changes
+  * Destructible Terrain see [DestructibleTerrain](DestructibleTerrain.md)

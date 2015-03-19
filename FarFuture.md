@@ -1,0 +1,33 @@
+#### Security ####
+This is such an important issue that it should probably considered seperately. With the advent of advanced techniques such as of in-memory hacks [(read here](http://www.makeuseof.com/tag/cheat-in-every-computer-game-with-poke/) and [here) ](http://cheatengine.org/)and the fact the engine is OS means there can be no security. Or does it? Read this post [Trusted Communities](TrustedCommunities.md), they may provide one way to provide a secure environment. Players may need to exchange keys.
+#### Other Vehicles ####
+IMPLEMENTED IN MA 0.31 ROUGHLY FOR ACTORS
+
+To accomadate other vehicles the main difference between them would be with respect to locomotion, even with mechs you have chicken walkers OR 'human' gait types. If we are going to mod the engine perhaps we could accomadate eg VTOL, tank, battle armor, quadraped vehicles. Perhaps a generic playervehicle or playertype could be developed.
+#### More Complex Gameplay ####
+Mechassault 2 added extra vehicles (VTOL, tank, battle armor) and more complex gameplay (neuro-hacking, VTOL transport) but it didn't all work.
+  * different player/vehicle types/class LEAGUE PARTLY IMPLEMENTS THIS IN RE 1.1
+  * remote control of droids/bots
+  * hacking _Note: like neurohacking in MA2 but needs to be different_
+  * cooperative/sqaud SP campaigns IMPLEMENTED IN RE 1.0
+  * Shields, cloaking and other defensive measures
+  * Carry stuff other than flags and bombs
+  * Medic type class/effect - perhaps called Engineer mek
+#### New Engine Functionality ####
+  * cut scenes
+  * complex campaigns SCRIPTING IN RE CAN DO SOME BUTSTILL CAN'T BLOW STUFF UP
+  * interface -  ?read html, ?data from database
+#### Mech Customization ####
+Many suggest this, like Chromehounds. I think it's a bit overrated and time consuming; for both the player and especially the developer. I'll leave it on the table.
+#### Galactic Conquest ####
+Fight across the galaxy in a persisting universe!. This was a nice idea that didn't work very well in Mechassault 2. This could perhaps be implemented rather simply, at least from the point of view of the cube engine. You could have paticular servers or hosts that host Conquest Games. The connections could be hard coded into a menu or a lobby like map within the game. These conquest games would run at regular times and people would join, if the room doesn't fill with people, then bots would fill the remaining slots. The work of maintaining the state of the galaxy, scheduling matches, results and clan management would all be done on the Conquest server. Some means of passing scores from the cube engine to the Conquest server would be needed. Maybe the IRC Client could be used.
+#### Robotic Warfare ####
+I like the idea of using the engine to run bot based simulations.
+  * The engine already does bots
+  * There may not need to be any change to game play
+  * The bot ai would need significant upgrades
+  * Perhaps bot programming could be stored in config files, where the uses could mod/evolve their bots programming. True robowars!
+#### Pilot Career ####
+SOME PROGRESS WITH SITE
+
+Fight your way up the clan! Structured like the old mechwarrior games, the player has to complete a series of operations, which consist of a series of missions. In our implementation the pilots career is going to be managed online, with most of the story elements done online. The pilot will then download the Operation data (maps and any other bits and pieces needed) and play through the missions.

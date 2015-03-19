@@ -1,0 +1,45 @@
+This follows on from the [Heat](Heat.md) page.
+### Developing a Mech Class ###
+I started with the headings taken from the [Mechbay Datasheet](http://mechbay.teamxbow.org/simpledb1/mechdata1.php) which uses data from Shadow Panthers site. This is the only data I have. Ultimately the mechs weight determines the amount of 'stuff' the mech can carry and at what speed. These I believe are loosely based on the rules from the MW universe. The attributes of a mech from Mechassault 1 are listed below, with some comments:
+  * **Weight (Kg)** = Chassis + armor + weapons + defense + jump jets. Chassis is a fixed weight and includes the unmodifiables like power core, fuel, myomuscles, skeleton, cockpit, life support, sensors, supplies etc. Thus armor, weapons, defense, jump jets
+  * **Locomotion** - chicken walkers OR 'human' gait NB: could add other types eg VTOL, tank, battle armor, quadraped
+  * **Armor** - very important.
+  * **Speed** - Proportinal to weight. _note:_ in game speeds  are not what are published. Little mechs go slower than they should relative to big mechs.
+  * **Torso Rotation** - a very important constraint particularily on big mechs v liitle mechs. Important to get the MA feel. Needs MD3 or MD5 models. MD2 shouldn't work.
+  * **Class** - arbitary term based on size. eg assault, light etc
+  * **MxHeat** - max 200 htu
+  * **CoolRate** - max 20 htu/s
+  * **Weapons** - 3 categories, ballistic, energy and missile of about 10 types, complex rules/models/particle fx. Must consider heat management, firing and 'projectile/energy fx, targetting, impact fx, power ups etc. I did a little bit of thinking about how the cube weapons could be made to be mech weapons -  [read it here,](http://mechbay.teamxbow.org/mechassault_to_cube_weapons.htm) however I did this before I started looking at the closely engine. Probably won't be implemented till late, maybe stage 4. Linked closely with heat management and defense.
+  * **Salvage** - Armor Amount & types: Sal-Energy Sal-Ball Sal-Miss
+  * **Jumpjets** - Variables: Speed & time, model needs to have exhaust and a flying posture (probaly including take off and landing animations) This will have it's own section! One possibility is to modify the prone/crawl part of the engine code (& the models!) Another would be to drop it.
+  * **Defense** - one of Nullsig, Cloak, Antimissile or Shield. Complex, linked closely with weapons/targeting! The next step is to work throught the engine seeing if anything that already exists can be used, configured or modified to meet these requirements.
+# 2010 The Mech Class begins #
+Following in the manner of the gameent in BF 0.85 the C code below would define a mech entity with all
+{{{struct mechent;
+// first go at mecha
+struct mkstyles
+{
+> int	type,			weap1,			weap2,			weap3,		salvage, sal1, sal2, sal3,	health,	maxspeed, jjspeed, jjtime, jjjuice,	weight;
+> float	maxheat,	coolrate,	torsorotation; const char	**name,**mdl;}}}
+
+type,			
+weap1 - 			
+weap2,			
+weap3,
+salvage		
+sal1 eg how much energy weapon salvage left 
+sal2 - missile 
+sal3,	
+health = armor	
+maxspeed -  
+jjspeed - speed of jump jets
+jjtime -  total time 
+jjjuice - how much JJ in tank	
+weight - the mechs weight, important for physics 
+		
+maxheat,	
+coolrate,	
+torsorotation; 
+	
+name,		
+mdl - the base model used, ```

@@ -1,0 +1,48 @@
+**Mission Objective: Reproduce MA1 online game play using the Cube Engine**
+## Step 1 - Proof of concept -  3 months ##
+Get a mech model into current maps, as a basic a proof of concept. Reskin the GUI to make it more Mech like, Set up the ['tool chains'](TooChains.md) for code, models, maps and graphics. Mod as much as possible with the config. Learn the [engine](ExploringEngine.md). Work out key concepts eg: [mech classs](MechClass.md), [heat cycle](Heat.md), [Game model requirements](MechModelRequirement.md), [Weapons](Weapons.md) changes.
+See updates and progress at [Phase1](Phase1.md)at end we have Ver 0.1 and decide if we progress.
+## Step 2 - Start to get the old Mechassault feel - Ver 0.2 6 months ##
+  * Add controller support
+  * heat management - definitely need significant additions to the engine. [Heat](Heat.md)
+  * Develop the mech model into a 'reference mech'. 2 actually, one for chicken walkers and one for human style gait. Include all base behaviors (walking, running, falling, exploding etc).
+  * Start work on how to do the weapons
+The teams would start to form:
+  * Engine Team
+  * Map Making
+  * Modelers
+  * Network & Testing
+## Step 3 - Base Game - Ver 0.3 9 to 12 months ##
+We have 2 reference mechs, and a game that works and feels like MA
+1. Develop a few more mechs from the reference designs
+2. Work on Weapons - missiles, gauss, PPC,  MG, lasers, hammers
+3. Develop a few test good test maps (?replicate some classic MA maps) with some destructible terrain
+4. Make all the above work together as best as possible, without significant mods to engine. What's missing?  Is it a problem with the engine, models or maps. Does it need an engine mod?
+## Step 4 - Finishing the Basics - Ver 0.4 12 to 18 months ##
+1. Engine Mods - see below
+2. Work on weapons
+3. Work on maps inc destructibles
+4. Add voice coms here (? use Xfire or teamspeak)
+Test, refine, test etc
+> If OK proceed to 5
+## Step 5 - Alpha release - Ver 0.5 Around 24 months ##
+Aim at about half a dozen mechs and maps for Alpha.
+1. Major test including volume testing
+2. Map development would continue
+3. Mech development would continue
+## Step 6 - Post Alpha  Ver 0.6 ##
+1. Fix problem identified in alpha
+2. Ideally map and mech development would be finished by the end of this
+## Step 7 -  Beta release 1.0 Beta ##
+1. Major test including all release maps
+2. No new map or model development
+## Step 8 -  Post release V 1.1 ##
+1. Fix problem identified by users
+2. Community development groups
+## Step 9 - Version 1.5 ##
+1. Add the good community maps, mods, mechs and models.
+2. Fix bugs
+3. Develop functional spec for 2.0
+Persisting world aka MA2 conquest
+Mission bookings/game scheduling
+VTOL and other vehicles (significant engine changes)

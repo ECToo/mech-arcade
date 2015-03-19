@@ -1,0 +1,8 @@
+### Roll out the Barrel! ###
+Cube already has a destructible entiry, the barrel. It's got a bit of physics and a boom that does splash damge. You can stack'em, too. Nearly the same as what happens with those buildings and bridges in MA. See what I am thinking. Can we use the built in barrel entity to emulate destructible terrain? Change the barrel to a building BLOX, pancake them to make multistorey buildings?
+
+Barrels are only in the SP versions of Cube for performance reasons online, read more in the [Cube forums.](http://cubeengine.com/forum.php4?action=display_thread&thread_id=1904) One solution may be the pattern of gameplay, the first 30 seconds of most online MA matches is spent destroying the destructible bridges, buildings and terrain, usually before significant gameplay has taken place, so issues of lag may not be an issue.
+
+
+### Animated Models ###
+Coming soon - gotta' try these out.
